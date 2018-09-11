@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+</head>
+<body>
+<button id="id">上传</button>
+<script>
+    $("#id").click(function () {
+        $.ajax({
+            type: "post",
+            url:  "/upload/string",
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(getTestJson()),
+            dataType: "json",
+            success: function (data) {
+                alert(JSON.stringify(data));
+            }
+        });
+
+        function getTestJson() {
+            var Json = {
+                "fileData":"1234",
+                "fileName":"test.txt"
+            };
+            return Json;
+        }
+
+    });
+</script>
+</body>
+</html>

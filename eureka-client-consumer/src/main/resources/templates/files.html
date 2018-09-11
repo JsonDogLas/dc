@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ALL FILES</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+</head>
+<body>
+    <table>
+        <tr th:each="file:${files}">
+            <td><a th:href="'http://'+${host}+'/'+${file.groupName}+'/'+${file.path}" th:text="${file.fileName}"></a></td>
+            <td>  </td>
+            <td><a th:onclick="'javascript:deleteFile('+${file.id}+');'" th:text="delete"></a></td>
+<!--            <td><a th:href="${file.realAddr}" th:text="download" download="newFile"></a></td> -->
+        </tr>
+    </table>
+    <br/>
+    <a th:href="@{/upload}">upload</a><span>  </span><a th:onclick="'javascript:deleteAll()'">delete all files</a>
+    <script>
+        function deleteFile(fileId) {
+            $.ajax({
+                url: '/delete/'+fileId,
+                type: 'DELETE',
+                success: function(result) {
+                    window.location.href="/files";
+                }
+            });
+        };
+        function deleteAll() {
+            $.ajax({
+                url: '/delete/all',
+                type: 'DELETE',
+                success: function(result) {
+                    window.location.href="/files";
+                }
+            });
+        };
+    </script>
+</body>
+</html>
