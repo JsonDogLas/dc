@@ -1,0 +1,26 @@
+@font-face {
+    font-family: '国祥手写体';
+    src: url('font/gxsxt.eot'); /* IE9 兼容模式 */
+    src: url('font/gxsxt.eot?iefix') format('embedded-opentype'),  
+         	url('font/gxsxt.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '毛泽东字体';
+    src: url('font/mzdzt.eot'); /* IE9 兼容模式 */
+    src: url('font/mzdzt.eot?iefix') format('embedded-opentype'),  
+         	url('font/mzdzt.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '庞中华硬笔字体';
+    src: url('font/pzhybzt.eot'); /* IE9 兼容模式 */
+    src: url('font/pzhybzt.eot?iefix') format('embedded-opentype'),  
+         	url('font/pzhybzt.ttf') format('truetype');
+}
+@font-face {
+    font-family: '王晓辉行楷字体';
+    src: url('font/wxhxkzt.eot'); /* IE9 兼容模式 */
+    src: url('font/wxhxkzt.eot?iefix') format('embedded-opentype'),  
+         	url('font/wxhxkzt.ttf') format('truetype');
+}

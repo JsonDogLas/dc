@@ -1,0 +1,110 @@
+.upload{
+    width:100%;
+    height:80%;
+    display: table;
+}
+
+.upload .uploadInfo{
+    display:table-cell;
+    text-align:center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.uploadSign{
+    height:100%;
+    margin:auto;
+}
+.dz-preview{
+    display: none;
+}
+#dropz{
+    position:absolute;
+    width:100%;
+}
+
+.load{
+    text-align:center;
+}
+
+span.load{
+    margin-top:10px;
+}
+
+.uploadSign td{
+    text-align:center;
+}
+
+.uploadSign table{
+    width:100%;
+    background-color: #ffffff;
+}
+
+span.spot{
+    color:#393;
+    font-size:30px;
+    font-weight:900;
+    line-height:2px;
+    margin-left:2px;
+    margin-right:2px;
+}
+.uploadSign >div{
+    background-color: #ffffff;
+}
+.uploadSign{
+    padding-top:30px;
+}
+.uploadSign .uploadSignTable{
+    width: 100%;
+    padding-left:100px;
+    padding-right:100px;
+
+    padding-top:30px;
+    padding-bottom:30px;
+
+    margin-bottom: 30px;
+}
+
+.loadimag{
+    margin-top:10px;
+}
+.loadspan{
+    margin-top:10px;
+}
+
+.clientDownload{
+    margin-top:40px;
+}
+
+.clientDownload .client{
+    text-align: center;
+    margin-bottom:60px;
+}
+
+.clientDownload p{
+    text-align:center;
+}
+
+.bigLayer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+ .client-color{
+    padding: 5px 0px;
+    color:  #0000FF !important;
+    text-align: center;
+    border: none;
+    font-size:14px !important;
+    cursor: pointer;
+}
+
+.uploadDiv{
+    width:100%;
+    height:70%;
+    cursor:pointer;
+    cursor:hand;
+}

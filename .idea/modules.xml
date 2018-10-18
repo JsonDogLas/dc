@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DocCloud.iml" filepath="$PROJECT_DIR$/DocCloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" filepath="$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-client-producer/eureka-client-producer.iml" filepath="$PROJECT_DIR$/eureka-client-producer/eureka-client-producer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file-consumer/file-consumer.iml" filepath="$PROJECT_DIR$/file-consumer/file-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file-service/file-service.iml" filepath="$PROJECT_DIR$/file-service/file-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/registry/registry.iml" filepath="$PROJECT_DIR$/registry/registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-s-api/yq-api.iml" filepath="$PROJECT_DIR$/cloud-s-api/yq-api.iml" />
     </modules>
   </component>
 </project>

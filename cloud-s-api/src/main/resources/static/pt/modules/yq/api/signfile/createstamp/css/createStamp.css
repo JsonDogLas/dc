@@ -1,0 +1,130 @@
+
+
+textarea{
+	resize:none;
+	font-size:22px;
+	width:100%;
+	height:100%;
+	word-wrap:normal;
+}
+#fontSizeTest{
+	font-size: 22px;
+	width: 100%;
+	word-break:normal; 
+	width:auto;
+	white-space:pre-wrap;
+	word-wrap : break-word ;
+	overflow: hidden ;
+}
+div.createStamp{
+	width:100%;
+	height:100%;
+	margin:auto;
+	padding:20px;
+	background-color:#fff;
+}
+div.createStamp > div{
+	width:100%;
+}
+div.font{
+	height:30px;
+	width:100%;
+}
+div.font > div{
+	float:right;
+	height:100%;
+}
+
+#fontFamilyInput{
+	height:100%;
+	width:200px;
+}
+#fontSizeInput{
+	height:100%;
+	width:100px;
+}
+div.fontInput{
+	overflow:auto;
+	height:200px;
+	margin-top:12px;
+}
+div.fontCanvas{
+	overflow:auto;
+	height:200px;
+	border:1px #ccc solid;
+	background-color:#f0f0f0;
+}
+div.fontCanvas img{
+}
+
+div.fontOpeare{
+	height:30px;
+	margin-top:12px;
+}
+div.fontOpeare > button{
+	float:right;
+}
+.scaleTest{
+	width:100px;  
+	height: 13px; 
+}
+.scale span{
+    background:url(../img/scroll.png) no-repeat;
+    background-size:8px 16px;
+    width:8px;
+    height:16px;
+    position:absolute;
+    left:-2px;
+    top:-6px;
+    cursor:pointer;
+}
+.scale{ 
+	background:url(../img/background.png) no-repeat;
+    background-size:100px 13px;
+	width:100px;  
+	height: 13px; 
+	position: relative; 
+	margin-top:12px;
+}
+
+.scale div{ background-repeat: repeat-x; background-color: #339933; width: 0px; position: absolute; height: 3px; width: 0; left: 0; bottom: 0; }
+.scale_panel > div{
+    float:left;
+}
+.close div{
+	background:url(../img/close.png) no-repeat;
+    background-size:28px 28px;
+    width:28px;
+    height:28px;
+}
+
+.close{
+    width:28px;
+    height:28px;
+    margin-top:-198px;
+    margin-right:2px;
+}
+.close:focus{
+	background-color:#ececec;
+	border-radius:50%;
+}
+
+button.btn,button.btn:active, button.btn:focus{
+	background-color:#339933 !important;
+	border-color:#339933 !important;
+}
+button.btn:hover{
+	background-color:#6c0 !important;
+	border-color:#6c0 !important;
+	box-shadow:none;
+}
+button.btn[disabled]:active, button.btn[disabled]:focus, button.btn[disabled]:hover{
+	background-color:#339933 !important;
+	border-color:#339933 !important;
+}
+button.btn[disabled]:hover{
+	background-color:#6c0 !important;
+	border-color:#6c0 !important;
+	box-shadow:none;
+}
+

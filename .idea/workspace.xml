@@ -4,11 +4,19 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="3d13564b-779d-4e62-a392-605fcb546628" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/eureka-client-consumer/target/" />
+    <list default="true" readonly="true" id="aa41687b-f385-4f37-9719-2d76d055ef5b" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/eureka-client-producer/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-client-producer1/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-client-producer2/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-client-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/test/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-client-producer/target/" />
+    <ignored path="$PROJECT_DIR$/file-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/file-service/target/" />
+    <ignored path="$PROJECT_DIR$/registry/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-s-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,122 +24,110 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="DocCloud" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/resources/application.properties">
+      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/controller/FileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="336">
+              <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+              <folding>
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FileController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/controller/FileController.java">
+        <entry file="file://$PROJECT_DIR$/file-service/src/main/java/com/cb/producer/controller/FileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Md5Util.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/util/Md5Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="352">
+              <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1140#1164#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultipartFile.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/multipart/MultipartFile.java">
+      <file leaf-file-name="CrudRepository.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.9.RELEASE/spring-data-commons-2.0.9.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FastDfsClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/client/FastDfsClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UrlMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/entity/UrlMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="193">
+              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1535098894231" expanded="false" signature="0:104" ph="/.../" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UrlMapRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/dao/UrlMapRepository.java">
+      <file leaf-file-name="FileUrlMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file-service/src/main/java/com/cb/producer/entity/FileUrlMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUploadReq.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/entity/FileUploadReq.java">
+      <file leaf-file-name="InvocableHandlerMethod.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="193">
+              <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUploadRes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/entity/FileUploadRes.java">
+      <file leaf-file-name="application-service1.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file-service/src/main/resources/application-service1.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FastDfsConf.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/conf/FastDfsConf.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file-service/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="960">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-service2.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file-service/src/main/resources/application-service2.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileManager2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/service/FileManager2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileUrlMapRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file-service/src/main/java/com/cb/producer/dao/FileUrlMapRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -142,6 +138,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
       </list>
@@ -149,9 +146,22 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>path</find>
-      <find>CreatedDate</find>
+      <find>so-timeout</find>
+      <find>soTimeout</find>
+      <find>max-total</find>
+      <find>\\</find>
+      <find>commons-pool2</find>
+      <find>del</find>
+      <find>dele</find>
+      <find>eureka-client-consume</find>
+      <find>to_list</find>
+      <find>FdfsClientConfig</find>
+      <find>LoadBalanced</find>
+      <find>getServer</find>
     </findStrings>
+    <replaceStrings>
+      <replace>/</replace>
+    </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -166,33 +176,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/eureka-client-producer1/src/main/java/com/cb/eurekaclientproducer1/Entity/FileUploadRes.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer1/src/main/java/com/cb/eurekaclientproducer1/EurekaClientProducer1Application.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer1/src/main/java/com/cb/eurekaclientproducer1/Entity/UrlMap.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer1/src/main/java/com/cb/eurekaclientproducer1/dao/UrlMapRepository.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer1/src/main/java/com/cb/eurekaclientproducer1/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/eurekaclientconsumer/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer1/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/eurekaclientconsumer/client/FileManagerClient.java" />
+        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/client/FileManagerClient.java" />
+        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer1/src/main/java/com/cb/producer/client/FastDFSClient.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer1/src/main/java/com/cb/producer/ProducerApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer1/src/main/java/com/cb/producer/Entity/UrlMap.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer1/src/main/java/com/cb/producer/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer1/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/eureka-client-producer1/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/cb/eurekaserver/EurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/conf/RestTemplateConf.java" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/conf/Swagger2.java" />
-        <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/conf/FastDFSConf.java" />
-        <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/entity/UrlMap.java" />
-        <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/entity/FileUploadRes.java" />
-        <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/client/FastDFSClient.java" />
-        <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/conf/FastDfsConf.java" />
         <option value="$PROJECT_DIR$/eureka-client-producer/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/entity/FileUploadReq.java" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/controller/FileUploadReq.java" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/client/FileManagerClient.java" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/resources/templates/upload2.html" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/service/FileManager2.java" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer/src/test/java/com/cb/consumer/ConsumerApplicationTests.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/util/IdUtil.java" />
         <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/dao/UrlMapRepository.java" />
-        <option value="$PROJECT_DIR$/eureka-client-producer/src/test/java/com/cb/producer/ProducerApplicationTests.java" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/ProducerApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/ConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-client-producer/src/main/resources/application-service1.properties" />
-        <option value="$PROJECT_DIR$/eureka-client-producer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/entity/UrlMap.java" />
         <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/util/Md5Util.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/entity/FileUploadRes.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer/src/test/java/com/cb/producer/ProducerApplicationTests.java" />
+        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/resources/application-consumer1.properties" />
         <option value="$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/service/FileManager.java" />
+        <option value="$PROJECT_DIR$/eureka-client-producer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/registry/pom.xml" />
+        <option value="$PROJECT_DIR$/file-service/src/test/java/com/cb/producer/FileServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/file-service/src/main/java/com/cb/producer/entity/FileUrlMap.java" />
+        <option value="$PROJECT_DIR$/file-consumer/src/test/java/com/cb/consumer/FileConsumerApplicationTests.java" />
+        <option value="$PROJECT_DIR$/file-consumer/src/test/java/com/cb/consumer/test.java" />
+        <option value="$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/service/FileServiceManager.java" />
+        <option value="$PROJECT_DIR$/file-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/file-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/file-consumer/src/main/resources/templates/upload.html" />
+        <option value="$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/service/FileManager.java" />
+        <option value="$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/controller/FileServiceController.java" />
+        <option value="$PROJECT_DIR$/registry/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/file-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/file-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/service/FileManager2.java" />
+        <option value="$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/file-service/src/main/java/com/cb/producer/controller/FileController.java" />
       </list>
     </option>
   </component>
@@ -228,22 +262,16 @@
           <item name="DocCloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eureka-client-producer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eureka-client-producer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="232" />
-    <option name="y" value="115" />
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="17" />
+    <option name="y" value="241" />
     <option name="width" value="1600" />
     <option name="height" value="862" />
   </component>
@@ -262,8 +290,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -276,25 +302,25 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -302,7 +328,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -311,7 +337,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -321,7 +347,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -331,7 +357,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -341,7 +367,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -351,7 +377,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -359,7 +385,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -368,25 +394,25 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -394,7 +420,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -403,7 +429,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -413,7 +439,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -423,7 +449,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -433,7 +459,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -443,7 +469,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -453,7 +479,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -463,7 +489,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -471,14 +497,14 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -486,7 +512,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="file-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -495,25 +521,25 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -521,7 +547,7 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -530,34 +556,53 @@
             <path>
               <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="SearchEverywhereHistoryKey" value="LoadBalanceClient&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.LoadBalancerClient" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.34652594" />
+    <property name="SearchEverywhereHistoryKey" value="FastDFSConf&#9;FILE&#9;file://D:/project/springclouddemo/eureka-client-producer1/src/main/java/com/cb/eurekaclientproducer1/conf/FastDFSConf.java&#10;commons-pool2&#9;FILE&#9;jar://D:/environment/repository/org/apache/commons/commons-pool2/2.5.0/commons-pool2-2.5.0.jar!/META-INF/maven/org.apache.commons/commons-pool2&#10;GenericKeyedObjectPoolConfig&#9;FILE&#9;jar://D:/environment/repository/org/apache/commons/commons-pool2/2.5.0/commons-pool2-2.5.0.jar!/org/apache/commons/pool2/impl/GenericKeyedObjectPoolConfig.class&#10;ConnectionPoolConfig&#9;FILE&#9;jar://D:/environment/repository/com/github/tobato/fastdfs-client/1.26.1-RELEASE/fastdfs-client-1.26.1-RELEASE.jar!/com/github/tobato/fastdfs/conn/ConnectionPoolConfig.class&#10;PooledConnectionFactory&#9;PSI&#9;JAVA://com.github.tobato.fastdfs.conn.PooledConnectionFactory&#10;FileItem&#9;PSI&#9;JAVA://org.apache.commons.fileupload.FileItem&#10;Driver&#9;PSI&#9;JAVA://com.mysql.cj.jdbc.Driver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demos/spring-server" />
+    <property name="LombokPluginEnabledInProject" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\springclouddemo\eureka-client-producer1\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.cb.consumer.controller" />
+      <recent name="com.cb.eurekaclientconsumer.controller" />
+      <recent name="com.cb.eurekaclientproducer2.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\springclouddemo\eureka-client-producer1\src\main\java\com\cb\eurekaclientproducer1" />
+      <recent name="D:\project\springclouddemo\eureka-client-producer1\src\main\resources\templates" />
+      <recent name="D:\project\springclouddemo\eureka-client-producer1\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -576,14 +621,33 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.19562842" />
+    <option name="contentProportion" value="0.18797815" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Service2">
+  <component name="RunManager" selected="Spring Boot.Server1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="IdUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cb.producer.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.cb.producer.util.IdUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="eureka-client-producer" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -599,95 +663,64 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="ConsumerApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.cb.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="eureka-client-consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.cb.consumer.test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cb.consumer" />
-      <option name="MAIN_CLASS_NAME" value="com.cb.consumer.ConsumerApplicationTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="file-consumer" />
       <envs />
-      <patterns />
     </configuration>
-    <configuration name="ProducerApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileServiceApplicationTests.testUpload2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.cb.producer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="eureka-client-producer" />
+      <module name="file-service" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.cb.producer" />
-      <option name="MAIN_CLASS_NAME" value="com.cb.producer.ProducerApplicationTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ProducerApplicationTests.testUpload1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.cb.producer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="eureka-client-producer" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cb.producer" />
-      <option name="MAIN_CLASS_NAME" value="com.cb.producer.ProducerApplicationTests" />
-      <option name="METHOD_NAME" value="testUpload1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ProducerApplicationTests.testUpload2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.cb.producer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="eureka-client-producer" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cb.producer" />
-      <option name="MAIN_CLASS_NAME" value="com.cb.producer.ProducerApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.cb.producer.FileServiceApplicationTests" />
       <option name="METHOD_NAME" value="testUpload2" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cb.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cb.test" />
+      <option name="MAIN_CLASS_NAME" value="com.cb.test.TestApplicationTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -719,6 +752,42 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springclouddemo" />
+      <envs />
+    </configuration>
+    <configuration name="DocCloud [compile]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -726,36 +795,69 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="Consumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Consumer1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cb.consumer.ConsumerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cb.consumer.FileConsumerApplication" />
       <option name="ACTIVE_PROFILES" value="consumer1" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="eureka-client-consumer" />
+      <module name="file-consumer" />
       <envs />
     </configuration>
-    <configuration name="Server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Consumer2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cb.eurekaserver.EurekaServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cb.consumer.FileConsumerApplication" />
+      <option name="ACTIVE_PROFILES" value="consumer2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="file-consumer" />
+      <envs />
+    </configuration>
+    <configuration name="FileServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cb.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cb.producer.FileServiceApplication" />
+      <module name="file-service" />
+      <envs />
+    </configuration>
+    <configuration name="Server1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cb.eurekaserver.RegistryApplication" />
       <option name="ACTIVE_PROFILES" value="peer1" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="eureka-server" />
+      <module name="registry" />
       <envs />
     </configuration>
-    <configuration name="Service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Server2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cb.producer.ProducerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cb.eurekaserver.RegistryApplication" />
+      <option name="ACTIVE_PROFILES" value="peer2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="registry" />
+      <envs />
+    </configuration>
+    <configuration name="Service1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cb.producer.FileServiceApplication" />
       <option name="ACTIVE_PROFILES" value="service1" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="eureka-client-producer" />
+      <module name="file-service" />
       <envs />
     </configuration>
     <configuration name="Service2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cb.producer.ProducerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cb.producer.FileServiceApplication" />
       <option name="ACTIVE_PROFILES" value="service2" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="eureka-client-producer" />
+      <module name="file-service" />
+      <envs />
+    </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cb.test.TestApplication" />
+      <module name="test" />
       <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -791,22 +893,28 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Service2" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.Consumer" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.Service" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.Server" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ConsumerApplicationTests" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ProducerApplicationTests" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.ProducerApplicationTests.testUpload2" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.ProducerApplicationTests.testUpload1" />
+    <list size="13">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Server1" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.Server2" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.Consumer1" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.Consumer2" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.Service1" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.Service2" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.TestApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Maven.DocCloud [compile]" />
+      <item index="8" class="java.lang.String" itemvalue="Application.IdUtil" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.TestApplicationTests" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.FileServiceApplicationTests.testUpload2" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.FileServiceApplication" />
+      <item index="12" class="java.lang.String" itemvalue="Application.test" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ProducerApplicationTests.testUpload1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ProducerApplicationTests.testUpload2" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ProducerApplicationTests" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ConsumerApplicationTests" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FileServiceApplicationTests.testUpload2" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.FileServiceApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IdUtil" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -819,55 +927,71 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3d13564b-779d-4e62-a392-605fcb546628" name="Default" comment="" />
-      <created>1535713964488</created>
+      <changelist id="aa41687b-f385-4f37-9719-2d76d055ef5b" name="Default" comment="" />
+      <created>1535010494269</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1535713964488</updated>
-      <workItem from="1535713968864" duration="1767000" />
-      <workItem from="1535938014487" duration="311000" />
-      <workItem from="1535938343054" duration="457000" />
-      <workItem from="1535938811136" duration="3000" />
-      <workItem from="1535938836377" duration="46278000" />
-      <workItem from="1536137903188" duration="29226000" />
-      <workItem from="1536646706392" duration="669000" />
+      <updated>1535010494269</updated>
+      <workItem from="1535010497900" duration="53623000" />
+      <workItem from="1535417368858" duration="83229000" />
+      <workItem from="1536833794674" duration="237000" />
+      <workItem from="1536834082205" duration="1217000" />
+      <workItem from="1536886862701" duration="4107000" />
+      <workItem from="1537174513433" duration="1610000" />
+      <workItem from="1537237315705" duration="1674000" />
+      <workItem from="1537239278657" duration="29598000" />
+      <workItem from="1537341095152" duration="3031000" />
+      <workItem from="1537407782347" duration="13463000" />
+      <workItem from="1537520261474" duration="3000" />
+      <workItem from="1538015162820" duration="3951000" />
+      <workItem from="1538035073077" duration="7860000" />
+      <workItem from="1538096656560" duration="3303000" />
+      <workItem from="1538185281891" duration="823000" />
+      <workItem from="1538202176753" duration="2882000" />
+      <workItem from="1538205210707" duration="8245000" />
+      <workItem from="1538977244733" duration="20034000" />
+      <workItem from="1539220886192" duration="1687000" />
+      <workItem from="1539235417654" duration="11697000" />
+      <workItem from="1539252174102" duration="6082000" />
+      <workItem from="1539339816350" duration="13082000" />
+      <workItem from="1539651109353" duration="22986000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConsumerApplicationTests - 2018.09.05 at 15h 02m 08s.xml">
-      <configuration name="ConsumerApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsumerApplicationTests - 2018.09.05 at 15h 17m 49s.xml">
-      <configuration name="ConsumerApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsumerApplicationTests - 2018.09.05 at 15h 19m 52s.xml">
-      <configuration name="ConsumerApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProducerApplicationTests - 2018.09.05 at 15h 25m 39s.xml">
-      <configuration name="ProducerApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProducerApplicationTests - 2018.09.05 at 15h 33m 13s.xml">
-      <configuration name="ProducerApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProducerApplicationTests - 2018.09.05 at 15h 33m 57s.xml">
-      <configuration name="ProducerApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProducerApplicationTests_testUpload1 - 2018.09.05 at 16h 08m 07s.xml">
-      <configuration name="ProducerApplicationTests.testUpload1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProducerApplicationTests_testUpload2 - 2018.09.05 at 15h 34m 42s.xml">
+    <history-entry file="ProducerApplicationTests_testUpload2 - 2018.09.18 at 13h 26m 11s.xml">
       <configuration name="ProducerApplicationTests.testUpload2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProducerApplicationTests_testUpload2 - 2018.09.05 at 15h 36m 01s.xml">
+    <history-entry file="ProducerApplicationTests_testUpload2 - 2018.09.18 at 13h 26m 44s.xml">
       <configuration name="ProducerApplicationTests.testUpload2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProducerApplicationTests_testUpload2 - 2018.09.05 at 15h 37m 24s.xml">
+    <history-entry file="ProducerApplicationTests_testUpload2 - 2018.09.18 at 13h 27m 13s.xml">
+      <configuration name="ProducerApplicationTests.testUpload2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerApplicationTests_testUpload2 - 2018.09.18 at 15h 18m 13s.xml">
+      <configuration name="ProducerApplicationTests.testUpload2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerApplicationTests_testUpload2 - 2018.09.18 at 15h 18m 51s.xml">
+      <configuration name="ProducerApplicationTests.testUpload2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerApplicationTests_testUpload2 - 2018.09.18 at 15h 23m 04s.xml">
+      <configuration name="ProducerApplicationTests.testUpload2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerApplicationTests_testUpload2 - 2018.09.18 at 15h 24m 07s.xml">
+      <configuration name="ProducerApplicationTests.testUpload2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerApplicationTests_testUpload2 - 2018.09.20 at 17h 07m 35s.xml">
+      <configuration name="ProducerApplicationTests.testUpload2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerApplicationTests_testUpload2 - 2018.09.20 at 17h 09m 51s.xml">
+      <configuration name="ProducerApplicationTests.testUpload2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerApplicationTests_testUpload2 - 2018.09.20 at 17h 10m 20s.xml">
       <configuration name="ProducerApplicationTests.testUpload2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78711000" />
+    <option name="totallyTimeSpent" value="294424000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -879,41 +1003,43 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37938845" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22049356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34201586" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49248928" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33635333" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3556059" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3250283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26555794" sideWeight="0.49270073" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3578709" sideWeight="0.48712447" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2423556" sideWeight="0.5611588" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29218572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2360515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26180258" sideWeight="0.50729924" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.403171" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.53004295" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -924,345 +1050,376 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>fileUrlMapRepository.findById(id)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/test/java/com/cb/producer/ProducerApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.27.0/fastdfs-client-1.27.0-sources.jar!/com/github/tobato/fastdfs/service/DefaultTrackerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.27.0/fastdfs-client-1.27.0-sources.jar!/com/github/tobato/fastdfs/conn/TrackerConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.27.0/fastdfs-client-1.27.0-sources.jar!/com/github/tobato/fastdfs/service/DefaultGenerateStorageClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.27.0/fastdfs-client-1.27.0-sources.jar!/com/github/tobato/fastdfs/domain/TrackerLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="100" column="13" lean-forward="true" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/NoSuchElementException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.5.0/commons-pool2-2.5.0.jar!/org/apache/commons/pool2/impl/BaseGenericObjectPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="104" column="4" lean-forward="false" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.27.0/fastdfs-client-1.27.0-sources.jar!/com/github/tobato/fastdfs/conn/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.5.0/commons-pool2-2.5.0.jar!/org/apache/commons/pool2/impl/GenericKeyedObjectPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="153" column="21" lean-forward="true" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
-          <folding>
-            <marker date="1535073372540" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1535073372540" expanded="false" signature="153:1119" ph="..." />
-            <marker date="1535073372540" expanded="true" signature="1934:2000" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="2113:2959" ph="{...}" />
-            <marker date="1535073372540" expanded="false" signature="2995:3006" ph=" { " />
-            <marker date="1535073372540" expanded="false" signature="3033:3039" ph=" }" />
-            <marker date="1535073372540" expanded="false" signature="3094:3105" ph=" { " />
-            <marker date="1535073372540" expanded="false" signature="3142:3148" ph=" }" />
-            <marker date="1535073372540" expanded="false" signature="3183:3194" ph=" { " />
-            <marker date="1535073372540" expanded="false" signature="3220:3226" ph=" }" />
-            <marker date="1535073372540" expanded="false" signature="3279:3290" ph=" { " />
-            <marker date="1535073372540" expanded="false" signature="3325:3331" ph=" }" />
-            <marker date="1535073372540" expanded="false" signature="3384:3395" ph=" { " />
-            <marker date="1535073372540" expanded="false" signature="3430:3436" ph=" }" />
-            <marker date="1535073372540" expanded="true" signature="3472:3632" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="3695:4792" ph="{...}" />
-            <marker date="1535073372540" expanded="false" signature="4848:4859" ph=" { " />
-            <marker date="1535073372540" expanded="false" signature="4879:4885" ph=" }" />
-            <marker date="1535073372540" expanded="true" signature="4937:5008" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="5086:8649" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="8694:12112" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="12178:12838" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="12864:13010" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="13041:13611" ph="{...}" />
-            <marker date="1535073372540" expanded="false" signature="13642:13653" ph=" { " />
-            <marker date="1535073372540" expanded="false" signature="13700:13706" ph=" }" />
-            <marker date="1535073372540" expanded="true" signature="13736:14042" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="14079:14326" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="14361:14571" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="14597:15249" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="15281:16964" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="16999:18399" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="18440:19006" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="19049:24270" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="24331:27115" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="27212:28047" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="28119:29193" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="29228:29923" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="29967:30261" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="30318:30780" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="30832:31064" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="31140:31524" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="31578:31727" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="31759:31993" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="32085:32935" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="32990:33696" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="33729:34053" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="34108:34817" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="34890:35841" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="35906:36876" ph="{...}" />
-            <marker date="1535073372540" expanded="true" signature="36911:38453" ph="{...}" />
-            <marker date="1535073372540" expanded="false" signature="37380:37395" ph=" { " />
-            <marker date="1535073372540" expanded="false" signature="37448:37458" ph=" }" />
-            <marker date="1535073372540" expanded="false" signature="37528:37543" ph=" { " />
-            <marker date="1535073372540" expanded="false" signature="37567:37577" ph=" }" />
-            <marker date="1535073372540" expanded="false" signature="37624:37639" ph=" { " />
-            <marker date="1535073372540" expanded="false" signature="37663:37673" ph=" }" />
-            <marker date="1535073372540" expanded="false" signature="37719:37734" ph=" { " />
-            <marker date="1535073372540" expanded="false" signature="37760:37770" ph=" }" />
-            <marker date="1535073372540" expanded="false" signature="37843:37858" ph=" { " />
-            <marker date="1535073372540" expanded="false" signature="37881:37891" ph=" }" />
-            <marker date="1535073372540" expanded="true" signature="37926:38447" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/ProducerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.1.RELEASE/spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EnableEurekaClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.1.RELEASE/spring-cloud-commons-2.0.1.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClientImportSelector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.1.RELEASE/spring-cloud-commons-2.0.1.RELEASE.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.1.RELEASE/spring-cloud-commons-2.0.1.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/2.0.1.RELEASE/spring-cloud-netflix-core-2.0.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.1.RELEASE/spring-cloud-openfeign-core-2.0.1.RELEASE.jar!/org/springframework/cloud/openfeign/EnableFeignClients.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/2.7.0/springfox-swagger2-2.7.0.jar!/springfox/documentation/swagger2/annotations/EnableSwagger2.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application-peer1.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/application-consumer1.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/application-consumer2.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.1.RELEASE/spring-cloud-commons-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/application.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.1.RELEASE/spring-cloud-netflix-ribbon-2.0.1.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="32" />
+        <state relative-caret-position="1518">
+          <caret line="106" column="30" lean-forward="false" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/test/java/com/cb/consumer/FileConsumerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/service/FileServiceManager.java" />
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/test/java/com/cb/consumer/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registry/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="44" column="53" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/file-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
+        <state relative-caret-position="168">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/file-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1281">
-          <caret line="85" column="12" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="85" selection-end-column="12" />
+        <state relative-caret-position="1440">
+          <caret line="60" column="31" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/resources/templates/upload2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.13/swagger-annotations-1.5.13.jar!/io/swagger/annotations/ApiParam.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/2.7.0/springfox-swagger2-2.7.0.jar!/springfox/documentation/swagger2/annotations/EnableSwagger2.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <marker date="1535681475508" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1535681475508" expanded="false" signature="168:505" ph="..." />
+            <marker date="1535681475508" expanded="true" signature="507:634" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/2.7.0/springfox-swagger2-2.7.0.jar!/springfox/documentation/swagger2/configuration/Swagger2DocumentationConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <marker date="1535681475508" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1535681475508" expanded="false" signature="170:1072" ph="..." />
+            <marker date="1535681475508" expanded="true" signature="1074:1304" ph="@{...}" />
+            <marker date="1535681475508" expanded="true" signature="1403:1410" ph="{}" />
+            <marker date="1535681475508" expanded="false" signature="1472:1483" ph=" { " />
+            <marker date="1535681475508" expanded="false" signature="1518:1524" ph=" }" />
+            <marker date="1535681475508" expanded="true" signature="1720:1885" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12-sources.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/controller/FileServiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.1.RELEASE/spring-cloud-commons-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/ServiceInstanceChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/2.0.1.RELEASE/spring-cloud-netflix-core-2.0.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.1.RELEASE/spring-cloud-commons-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.1.RELEASE/spring-cloud-commons-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreakerImportSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.9.RELEASE/spring-data-jpa-2.0.9.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.9.RELEASE/spring-data-commons-2.0.9.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        <state relative-caret-position="461">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/resources/templates/files.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        <state relative-caret-position="344">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/templates/hello.html">
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/resources/templates/hello.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/client/FileManagerClient.java">
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/resources/templates/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/conf/RestTemplateConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/conf/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/client/FileManagerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-s-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <caret line="102" column="9" lean-forward="false" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/conf/RestTemplateConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/conf/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/service/FileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/java/com/cb/consumer/service/FileManager2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-consumer/src/main/resources/templates/upload.html">
+    <entry file="file://$PROJECT_DIR$/registry/src/main/resources/application-peer2.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/resources/application-service1.properties">
+    <entry file="file://$PROJECT_DIR$/registry/src/main/resources/application-peer1.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="63" lean-forward="true" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registry/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/resources/application-consumer1.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/resources/application-consumer2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="327" column="17" lean-forward="false" selection-start-line="327" selection-start-column="17" selection-end-line="327" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/FileConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="660" column="0" lean-forward="false" selection-start-line="660" selection-start-column="0" selection-end-line="660" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-service/src/test/java/com/cb/producer/FileServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1098">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-service/src/main/java/com/cb/producer/FileServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/service/FileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-537">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/service/FileManager2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-consumer/src/main/java/com/cb/consumer/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-service/src/main/resources/application-service2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-service/src/main/resources/application-service1.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
@@ -1270,125 +1427,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/resources/application-service2.properties">
+    <entry file="file://$PROJECT_DIR$/file-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-service/src/main/java/com/cb/producer/dao/FileUrlMapRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/cb/eurekaserver/EurekaServerApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="193">
+          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.9.RELEASE/spring-data-commons-2.0.9.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
-            <element signature="e#373#374#0" expanded="false" />
-            <element signature="e#438#439#0" expanded="false" />
+            <marker date="1535098894231" expanded="false" signature="0:104" ph="/.../" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.9.RELEASE/spring-data-commons-2.0.9.RELEASE.jar!/org/springframework/data/annotation/CreatedDate.class">
+    <entry file="file://$PROJECT_DIR$/file-service/src/main/java/com/cb/producer/entity/FileUrlMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.9.RELEASE/spring-data-jpa-2.0.9.RELEASE.jar!/org/springframework/data/jpa/domain/support/AuditingEntityListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-836">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="360">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/client/FastDfsClient.java">
+    <entry file="file://$PROJECT_DIR$/file-service/src/main/java/com/cb/producer/controller/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/multipart/MultipartFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/conf/FastDfsConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/dao/UrlMapRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/entity/FileUploadReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/entity/FileUploadRes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/entity/UrlMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="352">
+          <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1140#1164#1" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/util/Md5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-producer/src/main/java/com/cb/producer/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.34652594" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.34652594" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.34652594" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.34652594" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|eureka-client-producer1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.commons:commons-pool2:2.5.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.34652594" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>

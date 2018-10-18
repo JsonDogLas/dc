@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+         updateCheck="false">     
+    <diskStore path="java.io.tmpdir"/>     
+    <defaultCache     
+            maxElementsInMemory="10000"    
+            eternal="false"    
+            timeToIdleSeconds="120"    
+            timeToLiveSeconds="120"    
+            overflowToDisk="true"    
+            maxElementsOnDisk="10000000"    
+            diskPersistent="false"    
+            diskExpiryThreadIntervalSeconds="120"    
+            memoryStoreEvictionPolicy="LRU"  
+      />   
+     <cache name="CebaCacheBase64"
+			maxElementsInMemory="10000"
+			eternal="false"
+			overflowToDisk="true"
+			timeToIdleSeconds="300"
+			timeToLiveSeconds="600"
+			memoryStoreEvictionPolicy="LFU" />
+	<cache name="UserKeyLoginCache"
+		   maxElementsInMemory="10000"
+		   eternal="false"
+		   overflowToDisk="true"
+		   timeToIdleSeconds="500"
+		   timeToLiveSeconds="600"
+		   memoryStoreEvictionPolicy="LFU" />
+
+	<cache name="CbPdfFrontSignParamCache"
+		   maxElementsInMemory="10000"
+		   eternal="false"
+		   overflowToDisk="true"
+		   timeToIdleSeconds="500"
+		   timeToLiveSeconds="600"
+		   memoryStoreEvictionPolicy="LFU" />
+
+	<cache name="CreateStampCache"
+		   maxElementsInMemory="10000"
+		   eternal="false"
+		   overflowToDisk="true"
+		   timeToIdleSeconds="360"
+		   timeToLiveSeconds="600"
+		   memoryStoreEvictionPolicy="LFU" />
+
+</ehcache>   

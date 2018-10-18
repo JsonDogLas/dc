@@ -1,0 +1,47 @@
+body {
+	padding: 0px !important;
+	margin:0px !important;
+}
+td textarea {
+	margin: 0px;
+	width: 322px;
+	height: 60px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #08867e;
+	border-color: #09966e
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #08867e;
+	border-color: #09966e
+}
+.forminput{
+	width:100%;
+	border-radius:3px;
+	border-color:#c5c5c5;
+	height:1.65em;
+	line-height:1.65em;
+	
+	text-indent:33em;
+	border:0;
+	margin:0;
+	
+	font-size:100%;
+	background-color:#fff;
+	color:#2e2e2e;
+	box-sizing:content-box;
+}
+
+.leftLabel{width:30%;display:inline-block;text-align:right;padding-right:25px;}
+.rightInput{width:60%;display: inline-block;}
+.buttonRight{text-align:right !important;}
+.myBgcolor{background-color:rgb(10,168,158) !important;}
+.form-group > label.leftLabel{
+	position:relative !important;
+}
+.marinT10{margin-top:10px;}
+.height35{height:35px;}

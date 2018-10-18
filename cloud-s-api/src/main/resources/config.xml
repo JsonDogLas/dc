@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<Settings Name="系统配置信息">
+		<Add Key="CERTIFICATE_DIR" Value="D:/ceba/certs/" />
+	</Settings>
+
+</Config>

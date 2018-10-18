@@ -1,0 +1,87 @@
+<html lang="en"  xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+	<meta charset="UTF-8">
+	<script  src="/libs/ace/assets/js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+	<div class="createStamp" style="display:none;">
+		<span >
+			<font id="WORKFLOW_THIS_UPLOAD_FILE_INPUT"></font>
+			<font style="color:red;" id="WORKFLOW_THIS_UPLOAD_FILE_INPUT_ENTER"></font>
+		 </span>
+		<div style="margin-left:2px;margin-right:2px;">
+			<span id="fontSizeTest" style="display:inline-block;"></span>
+		</div>
+		<!-- 字体输入区域 -->
+		<div class="fontInput">
+			<textarea id="fontInput" onresize="fontInput()"></textarea>
+			<div class="close" style="display:none;">
+				<div></div>
+			</div>
+		</div>
+
+		<!-- 字体图片显示区域 -->
+		<div  id="canvas" class="fontCanvas">
+			<!-- 字体调试区域 -->
+			<div class="font">
+				<!-- 字体 -->
+				<div id="fontFamily">
+					<input type="text" id="fontFamilyInput">
+				</div>	
+					
+				<!-- 字号 -->
+				<div id="fontSize" style="display:none;">
+					<input type="text" id="fontSizeInput">
+				</div>	
+				
+				<!-- 字体粗细 -->
+				<div style="float:right;display:none;">
+					<span style="  font-size: 24px;">B</span>
+					<div class="scaleTest" style="float:right;">
+						<div class="scale" id="bar" scales="900">
+		            				<div style="display:none;"></div>
+		            				<span id="btn"></span>
+		            				<input type="hidden" id="progreess" />
+		    			</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+		<!-- 操作区 -->
+		<div class="fontOpeare">
+			<button class="btn ink-reaction btn-raised btn-primary" id="fontOpeareNoUpload">
+				<font id="WORKFLOW_CUSTOMSIGN_CANCEL"></font>
+			</button>
+			<button class="btn ink-reaction btn-raised btn-primary" id="fontOpeareUpload" style="margin-right:5px;">
+				<font id="WORKFLOW_CUSTOMSIGN_CONFIROM"></font>
+			</button>
+		</div>
+	</div>
+</body>
+<link type="text/css" rel="stylesheet" href="/libs/ace/assets/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/pt/modules/yq/api/signfile/base/resources/css/theme-default/materialadmin.css" />
+<link type="text/css" rel="stylesheet" href="/pt/modules/yq/api/signfile/base/resources/css/theme-default/font-awesome.min.css" />
+<link type="text/css" rel="stylesheet" href="/pt/modules/yq/api/signfile/base/resources/css/theme-default/material-design-iconic-font.min.css" />
+<link type="text/css" rel="stylesheet" href="/pt/modules/yq/api/signfile/base/resources/css/default.css" />
+<link type="text/css" rel="stylesheet" href="/pt/modules/yq/api/signfile/base/resources/css/magic-check.css" />
+
+<script type="text/javascript" src="/libs/layer/js/layer.js"></script>
+<script type="text/javascript" src="/libs/ids/layer/js/idsLayer.js"></script>
+<link rel="stylesheet" href="/libs/layer/css/layer.css">
+<link rel="stylesheet" href="/libs/ids/layer/css/idsLayer.css">
+
+<!--select2-->
+<script src="/libs/select2/js/select2.full.min.js"></script>
+<script src='/libs/select2/js/i18n/zh-CN.js'></script>
+<link rel="stylesheet" href="/libs/select2/css/select2.min.css">
+<script src="/pt/modules/yq/api/signfile/createstamp/js/fontstyle_zh_CN.js"></script>
+<link rel="stylesheet" href="/pt/modules/yq/api/signfile/createstamp/css/fontstyle_zh_CN.css">
+<script src="/pt/modules/yq/api/signfile/createstamp/js/postilPlug.js"></script>
+<script src="/pt/modules/yq/api/signfile/createstamp/js/createStamp.js"></script>
+<link rel="stylesheet" href="/pt/modules/yq/api/signfile/createstamp/css/createStamp.css">
+<!-- 国际化 -->
+<script src="/pt/modules/yq/api/signfile/createstamp/js/createStampIntl.js"></script>
+</html>

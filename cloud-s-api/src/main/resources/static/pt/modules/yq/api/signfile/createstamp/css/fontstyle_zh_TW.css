@@ -1,0 +1,25 @@
+@font-face {
+    font-family: '禹卫书法行书繁体_TW';
+    src: url('font/yws_TW.eot'); /* IE9 兼容模式 */
+    src: url('font/yws_TW.eot?iefix') format('embedded-opentype'),  
+         	url('font/yws_TW.ttf') format('truetype');
+}
+@font-face {
+    font-family: '方正隶变_TW';
+    src: url('font/fz_TW.eot'); /* IE9 兼容模式 */
+    src: url('font/fz_TW.eot?iefix') format('embedded-opentype'),  
+         	url('font/fz_TW.ttf') format('truetype');
+}
+@font-face {
+    font-family: '苍石行书_TW';
+    src: url('font/cs_TW.eot'); /* IE9 兼容模式 */
+    src: url('font/cs_TW.eot?iefix') format('embedded-opentype'),  
+         	url('font/cs_TW.ttf') format('truetype');
+}
+@font-face {
+    font-family: '流行体_TW';
+    src: url('font/lx_TW.eot'); /* IE9 兼容模式 */
+    src: url('font/lx_TW.eot?iefix') format('embedded-opentype'),  
+         	url('font/lx_TW.ttf') format('truetype');
+}
+

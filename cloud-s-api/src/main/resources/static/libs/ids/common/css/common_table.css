@@ -1,0 +1,52 @@
+/**************************公共表格样式****************************************/
+
+.layui-table td a i{cursor: pointer}
+.page-content{
+    padding: 10px 20px 20px;
+}
+.table{
+    font-size:14px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th{
+    line-height: 4.42857143;
+}
+.table>thead>tr{
+    background:#fff !important; ;
+}
+.search-td{
+    width:200px;
+}
+.search-row{
+    width:180px;
+    position:relative;
+    margin: 0 auto;
+    margin-right: 20px;
+}
+
+.k-input{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+}
+
+.search-icon{
+    margin-top: 5px;
+    left: -20px;
+}
+.searchi{
+    cursor: pointer;
+    line-height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+/**************************公共表格样式 end****************************************/
+

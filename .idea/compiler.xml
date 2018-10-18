@@ -2,21 +2,36 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client-consumer" />
         <module name="eureka-client-producer" />
+        <module name="eureka-client-producer1" />
         <module name="eureka-server" />
+        <module name="file-consumer" />
+        <module name="file-service" />
+        <module name="registry" />
+        <module name="test" />
+        <module name="yq-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DocCloud" target="1.8" />
       <module name="eureka-client-consumer" target="1.8" />
       <module name="eureka-client-producer" target="1.8" />
+      <module name="eureka-client-producer1" target="1.8" />
+      <module name="eureka-client-producer2" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="file-consumer" target="1.8" />
+      <module name="file-service" target="1.8" />
+      <module name="registry" target="1.8" />
       <module name="springclouddemo" target="1.8" />
+      <module name="springcloudpro" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="yq-api" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

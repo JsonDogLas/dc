@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+
+var LmMessage = {
+	KEY_LOAD:"KEY加載失敗，請查看usbkey是否插入,或稽查KEY驅動",
+	KEY_LOAD_FAIL:"數字簽名未成功,請插入USB-KEY(數字證書),或稽查KEY驅動",
+	KEY_GET_FAI:"獲取KEY信息失敗，請查看KEY是否正常",
+	ENTER_PASS:"輸入KEY密碼",
+    CERT_DOWN_IN:"證書下載中...",
+	ENTER_PASS_ERROR1:"key密碼錯誤",
+	ENTER_PASS_ERROR2:",您只有",
+	ENTER_PASS_ERROR3:"次輸入機會",
+	ENTER_PASS_ERROR4:"KEY密碼錯誤,無法簽名",
+	SOCKET_REQUEST_FIRST:"請先請求socket連接",
+	SOCKET_GETINFO_FAIL:"獲取socket通信IP和Port失敗",
+	SOCKET_REQUEST_SUCCESS:"請求socket成功",
+	SOCKET_REQUEST_FAIL:"請求socket失敗",
+	SOCKET_SIGN_SUCCESS:"簽名成功",
+	SOCKET_SIGN_FAIL:"簽名事變",
+	SOCKET_GET_SIGN_FILE_FAIL:"Socket獲取文件失敗",
+	SOCKET_UNCONNECT_SUCCESS:"斷開成功",
+	PSW_CONFIRM_OK:"確定",
+	PSW_INIT_NOT_CHANGE:"初始密碼為修改，不能進行簽名",
+	SOCKET_SERVER_INFO:"獲取服務器信息失敗",
+	SIGN_RANDOM_WRONG:"簽名隨機值獲取失敗",
+	KEY_LOGIN_FAIL:"密碼錯誤，重新輸入",
+	KEY_LOGIN_PSW_INIT_NOT_CHANGE:"初始化密碼未修改，無法登錄",
+	KEY_FPLOGIN_TIP:"儅指紋KEY上的指示燈開始閃爍時，請按壓手指驗證指紋......",
+	KEY_FPLOGIN_FAIL:"指紋登錄失敗"
+}

@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+
+var LmMessage = {
+	KEY_LOAD:"KEY加载失败，请查看USB-KEY(数字证书)是否插入,或检查KEY驱动",
+	KEY_LOAD_FAIL:"数字签名未成功,请插入USB-KEY(数字证书),或检查KEY驱动",
+	KEY_GET_FAI:"获取KEY信息失败，请查看KEY是否正常",
+	ENTER_PASS:"输入KEY密码",
+	CERT_DOWN_IN:"证书下载中...",
+	ENTER_PASS_ERROR1:"key密码错误",
+	ENTER_PASS_ERROR2:",您只有",
+	ENTER_PASS_ERROR3:"次输入机会",
+	ENTER_PASS_ERROR4:"KEY密码错误,无法签名",
+	SOCKET_REQUEST_FIRST:"请先请求socket连接",
+	SOCKET_GETINFO_FAIL:"获取socket通信IP和Port失败",
+	SOCKET_REQUEST_SUCCESS:"请求socket成功",
+	SOCKET_REQUEST_FAIL:"请求socket失败",
+	SOCKET_SIGN_SUCCESS:"签名成功",
+	SOCKET_SIGN_FAIL:"签名失败",
+	SOCKET_GET_SIGN_FILE_FAIL:"Socket获取文件失败",
+	SOCKET_UNCONNECT_SUCCESS:"断开成功",
+	PSW_CONFIRM_OK:"确定",
+	PSW_INIT_NOT_CHANGE:"初始密码未修改，不能进行签名",
+	SOCKET_SERVER_INFO:"获取服务器信息失败",
+	SIGN_RANDOM_WRONG:"签名随机值獲取失败",
+	KEY_LOGIN_FAIL:"密码错误，重新输入",
+	KEY_LOGIN_PSW_INIT_NOT_CHANGE:"初始密码未修改，无法登录",
+	KEY_FPLOGIN_TIP:"当指纹KEY上的指示灯开始闪烁时，请按压手指以验证指纹......",
+	KEY_FPLOGIN_FAIL:"指纹登录失败",
+	APPLY_P10_FAIL:"请求P10失败",
+    APPLY_FROM_P10_FOR_CER_SUCCESS:"通过p10获取证书成功",
+    APPLY_FROM_P10_FOR_CER_FAIL:"通过p10获取证书失败",
+	PSW_RESET_SUCCESS:"密码重置成功",
+    PSW_RESET_FAIL:"密码重置失败"
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'StainlessDoft';
+    src: url('font/StainlessDoft.eot'); /* IE9 兼容模式 */
+    src: url('font/StainlessDoft.eot?iefix') format('embedded-opentype'),  
+         	url('font/StainlessDoft.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'signpainterhousescript';
+    src: url('font/signpainterhousescript.eot'); /* IE9 兼容模式 */
+    src: url('font/signpainterhousescript.eot?iefix') format('embedded-opentype'),  
+         	url('font/signpainterhousescript.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'WCManoNegraBta';
+    src: url('font/WCManoNegraBta.eot'); /* IE9 兼容模式 */
+    src: url('font/WCManoNegraBta.eot?iefix') format('embedded-opentype'),  
+         	url('font/WCManoNegraBta.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'sncscrp';
+    src: url('font/sncscrp.eot'); /* IE9 兼容模式 */
+    src: url('font/sncscrp.eot?iefix') format('embedded-opentype'),  
+         	url('font/sncscrp.ttf') format('truetype');
+}

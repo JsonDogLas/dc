@@ -1,0 +1,735 @@
+@media only screen and (max-width: 500px) {
+    
+}
+
+.widthHeight{
+	
+}
+
+.signatureHead{
+	height:60px;
+	width:1600px;
+    position:absolute;
+    z-index:2000;
+    background-color: #ffffff;
+    
+    font-size:20px;
+    color:#339933;
+    align:center;
+    
+	-moz-box-shadow:5px 2px 6px #bbb;/*firefox*/ 
+	-webkit-box-shadow:5px 2px 6px #bbb;/*webkit*/ 
+	box-shadow:5px 2px 6px #bbb;/*opera闁跨喐鏋婚幏绌抏9*/ 
+}
+  .signatureRood{
+ 	 height:53px;
+	 width:100%;
+     position:absolute;
+     z-index:7;
+     background-color:#ffffff;
+     top:740px;
+ }
+ .signatureBody{
+ 	height:800px;
+ 	width:1600px;
+     position:relative;
+     
+     overflow:hidden;
+     background-color:#e5e6e6;
+ }
+ 
+
+
+ .navigation{
+     float:left;
+	 width:260px;
+	 height:690px;
+	 float:left;
+	 overflow-y:scroll;
+ }
+
+ .PFDShow{
+     float:left;
+	 width:1080px;
+	 height:740px;
+	 margin-top:60px;
+	 margin-left:260px;
+ }
+
+ .PFDShowTest{
+	 width:1080px;
+	 height:740px;
+	 
+  
+     overflow-y:scroll;
+ }
+
+ .PFDNavigation{
+     float:left;
+     width:260px;
+     height:auto;
+     margin-top:60px;
+     background-color:#e5e6e6;
+ }
+
+ .PFDNavigationFile{
+     position:absolute;
+     top:45px;
+     height:45px;
+     width:290px;
+     z-index:3;
+     background-color:greenyellow;
+ }
+
+ .PFDNavigationName{
+     position:absolute;
+     height:45px;
+     width:244px;
+     top:60px;
+     left:1340px;
+     z-index:3;
+     text-align:center;
+     font-size:15px;
+     padding-top:10px;
+     background-color:#e5e6e6;
+     border-bottom-color:#999;
+     border-bottom-style:solid;
+     border-bottom-width:1px;
+ }
+
+ .PFDbody{
+     overflow-y:scroll;
+     height:740px;
+ }
+
+ .navigationFTPimg{
+ 	 width:auto;
+ 	 height:auto;
+     text-align:center;
+     margin-top:20px;
+ }
+.imgBorder{
+	 border-top-color:#b6b6b6;
+     border-top-width:2px;
+     border-top-style:solid;
+     
+     border-right-color:#b6b6b6;
+     border-right-width:2px;
+     border-right-style:solid;
+     
+     border-left-color:#b6b6b6;
+     border-left-width:2px;
+     border-left-style:solid;
+}
+.divBorder{
+	border-bottom-color:#b6b6b6;
+     border-bottom-width:2px;
+     border-bottom-style:solid;
+     
+     border-right-color:#b6b6b6;
+     border-right-width:2px;
+     border-right-style:solid;
+     
+     border-left-color:#b6b6b6;
+     border-left-width:2px;
+     border-left-style:solid;
+     
+     margin-left:auto;
+	 margin-right:auto;
+     
+     width:173px;
+     height:20px;
+     
+     padding-bottom:2px;
+     margin-top:-4px;
+     padding:0px; 
+     background-color:#e5e6e6;
+}
+
+ .selectBorder{
+     border-color:#339933;
+ }
+
+ .ftpImgBorder{
+ }
+ .navigationFTPimgTop{
+ 	margin-top:65px;
+ }
+
+ .signatureMenu{
+     
+ }
+
+ .signatureRete{
+     margin-left:10px;
+     margin-right:10px;
+     background-color:darkgray;
+ }
+ .signatureMenuBody{
+     
+     margin:0px;
+     padding:0px;
+ }
+
+ .signatureMenuBody li{
+ 	list-sytle:none;
+     margin:0px;
+     padding:0px;
+     text-align:center;
+     width:100%;
+ }
+
+ 
+ .signatureMenuImage{
+ 	padding-left:30px;
+ 	list-sytle:none;
+ }
+ .signatureMenuFont{
+ 	padding-left:20px;
+ 	color:#333;
+ 	font-size:20px;
+ 	list-sytle:none;
+ }
+.signatureMenuImageOne{
+	padding-left:38px;
+}
+
+.signatureMenuImageTwo{
+	width:92px;
+}
+
+.signatureMenuImageButoomOne{
+	float:left;
+	font-size:16px;
+	width:75px;
+	height:75px;
+}
+.signatureMenuFontButoomOne{
+	height:25px;
+	float:left;
+	color:#333;
+	font-size:14px;
+	min-width:20px;
+}
+	
+.signatureMenuFontOne{
+		color:#333;
+		font-size:16px;
+}
+.signatureMenuTable{
+	margin-left:10px;
+	height:100%;
+}
+.signatureMenuBodyLi{
+	height:125px;
+} 
+.signatureMenuBodyLiOne{
+	height:54px;
+	cursor:hand;
+	cursor:pointer;
+}
+.signBottunVisual{
+	height:50px;
+	width:260px;
+	background-color:#999;
+	float:left;
+}
+.signBottunSelect{
+	background-color:#339933;
+	float:left;
+	width:100%;
+}
+.signatureBodyDiv{
+	height:800px;
+	width:260px;
+	float:left;
+	position:absolute;
+		 z-index:1900;
+	background-color:#e5e6e6;
+}
+.signValue{
+	font-size:18px;
+	color:#fffefe;
+}
+.signatureMenuImageTwoTop{
+	margin-top:60px;
+	float:left;
+}
+.signatureMenuTableTop{
+	margin-top:20px;
+}
+.signatureMenuTableTopTwo{
+	margin-top:60px;
+}
+.signatureMenuTableTopThree{
+	margin-top:20px;
+}
+.signatureMenuImageThreeTop{
+	margin-top:60px;
+}
+.signatureMenuImageForTop{
+	margin-top:23px;
+}
+.signatureMenuImageForTop60{
+	margin-top:-55px;
+}
+.signatureMenuImageForTop60One{
+	float:left;
+	margin-top:-15px;
+}
+.signatureMenuImageTwoDiv{
+	margin-top:20px;
+}
+.signatureMenuImageTwoDiv{
+	margin-top:40px;
+}
+.signatureMenuImageTwoDivTop{
+	margin-top:-10px;
+}
+
+.signatureMenuImageTwoDivTwo{
+	margin-top:60px;
+}
+#clickSign{
+	text-align:center;
+	margin-top:10px;
+}
+
+.loadHintFont{
+	font-size:20px;
+	color:#339933;
+	text-align:center;
+	width:100%;
+	height:100%;
+}
+
+
+
+.selectImgBorder{
+	border-color:#339933;
+	border-width:1px;
+	border-style:solid;
+}
+.addButton{
+	color:#fff;
+	font-size:15px;
+	background-color:#339933;
+}
+.reduceButton{
+	color:#fff;
+	font-size:15px;
+	background-color:#339933;
+}
+.deleteButton{
+	color:#fff;
+	font-size:15px;
+	background-color:#339933;
+}
+.PDFshowImageBackground{
+	height:842px;
+	width:595px;
+	background-image:url(../img/775.png);
+	background-positions-x:0px;
+	background-positions-y:0px;
+	background-size:595px 842px;
+	background-attachment:scroll;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.divCenter{
+	margin-top:auto;
+	margin-margin:auto;
+}
+
+.signatureMenuBodyIE7{
+     margin:0px;
+     padding:0px;
+	 width:243px;
+	 margin-left:-10px;
+ }
+.signatureMenuImageIE7{
+ 	padding-left:0px;
+ 	list-sytle:none;
+ }
+.signatureMenuTableTopThreeIE7{
+	margin-top:60px;
+}
+.signatureMenuBodyLiIE7{
+	height:125px;
+	margin-top:-33px;
+	
+}
+.signatureMenuImageForTop60IE7{
+	margin-top:0px;
+}
+.divIE7{
+	margin-top:35px;
+}
+.signatureMenuImageTwoDivTopIE7{
+	margin-top:-3px;
+}
+
+.signatureMenuImageForTop60OneIE7{
+	margin-top:0px;
+	float:left;
+}
+.signatureMenuBodyLiOneIE7{
+	margin-top:30px;
+	cursor:hand;
+	cursor:pointer;
+}
+.signatureMenuBodyLiIE72{
+	height:125px;
+	margin-top:-11px;
+}
+body{
+	overflow:hidden;
+	height:100%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.boxShow{
+	/*OffX闁跨喐鏋婚幏鐑芥晸閺傘倖瀚归柨鐔告灮閹烽攱濮囪ぐ閬嶆晸閺傘倖瀚筙娴ｅ秹鏁撻悪鈽呯秶閹风兘鏁撻弬銈嗗娴ｅ秹鏁撻弬銈嗗閸婂ジ鏁撻弬銈嗗姒涙﹢鏁撻弬銈嗗閸婇棿璐�5
+	OffY闁跨喐鏋婚幏鐑芥晸閺傘倖瀚归柨鐔告灮閹烽攱濮囪ぐ閬嶆晸閺傘倖瀚筜娴ｅ秹鏁撻悪鈽呯秶閹风兘鏁撻弬銈嗗娴ｅ秹鏁撻弬銈嗗閸婂ジ鏁撻弬銈嗗姒涙﹢鏁撻弬銈嗗閸婇棿璐�5
+	Color闁跨喐鏋婚幏鐑芥晸閺傘倖瀚归柨鐔告灮閹烽攱濮囪ぐ閬嶆晸閺傘倖瀚归柨鐔告灮閹风柉澹婇崐锟�
+	Positive闁跨喐鏋婚幏鐑芥晸閺傘倖瀚归柨鐔告灮閹烽攱濮囪ぐ閬嶆晸閺傘倖瀚归柅蹇涙晸閺傘倖瀚归柨鐔告灮閹风兘鏁撶粩顓炲殩閹风兘锟藉繘鏁撻弬銈嗗闁跨喐鏋婚幏锟�
+	filter:progid:DXImageTransform.Microsoft.DropShadow(OffX='0', OffY='0', Color='#fcfcfc', Positive='true');*/
+	
+	
+	/*Color闁跨喐鏋婚幏鐑芥晸閺傘倖瀚归柨鐔告灮閹风兘鏁撻弬銈嗗瑜伴亶鏁撻弬銈嗗閼规煡鏁撻弬銈嗗
+	Direction闁跨喐鏋婚幏鐑芥晸閺傘倖瀚归柨鐔告灮閹风兘鏁撻弬銈嗗瑜伴亶鏁撴笟銉ュ殩閹风兘鏁撳ú銉礉鐟欐帟顔愰幏铚傜瘍闁跨喕顫楁潏鐐0闁跨喐鏋婚幏绌�315闁跨喐鏋婚幏宄板絿閸婂ジ鏁撻弬銈嗗闁跨喐鏋婚幏绋癝闁跨喐鏋婚幏閿嬪瑜拌鲸鏅ラ柨鐔告灮閹风兘鏁撶憴鎺旑劜閹风兘鏁撻弬銈嗗闁跨喐鏋婚幏鐑芥晸閻欌檧妲勯幏鐑芥晸閺傘倖瀚�
+	Strength闁跨喐鏋婚幏鐑芥晸閺傘倖瀚归柨鐔告灮閹烽攱濮囪ぐ鍗炲繁闁跨喖銈洪敐蹇斿闁跨喐鏋婚幏宄帮拷鑹扮Ш闁跨喐鏋婚幏鐤Ш濡繝鏁撻弬銈嗗闁跨喐鏋婚幏锟�*/
+	/*for ie6,7,8*/
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#e6e6e6, Direction=90, Strength=1); 
+	-moz-box-shadow:5px 5px 6px #bbb;/*firefox*/ 
+	-webkit-box-shadow:5px 5px 6px #bbb;/*webkit*/ 
+	box-shadow:5px 5px 6px #bbb;/*opera闁跨喐鏋婚幏绌抏9*/ 
+}
+
+
+/*****************************闁跨喐鏋婚幏宄板晸缁涢箖鏁撻弬銈嗗闁跨喐鏋婚幏宄扮础*************************/
+.qrcodeWindowClose,.handBagWindowClose{
+	margin-top:20px;
+	margin-right:20px;
+	width:32px;
+	height:32px;
+	background-image:url(../img/qrcodeWindowClose.png);
+ 	background-repeat:no-repeat;
+ 	background-size:32px 32px;
+ 	float:right;
+}
+.qrcodeWindowCloseIE7,.handBagWindowCloseIE7{
+	margin-top:20px;
+	margin-right:20px;
+	width:32px;
+	height:32px;
+  		float:right;
+}
+@-ms-viewport {
+ 	width: device-width;
+ 	height: device-height;
+}
+
+.signBottun{
+	padding-top:5px;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#ececed), to(#c2c1c5));
+	border-style:solid;
+	border-width:1px;
+	border-color:#b7b8b8;
+	
+	background: -ms-linear-gradient(top, #ececed,  #c2c1c5);   /**IE 11 10**/
+
+	background:-moz-linear-gradient(top,#ececed,#c2c1c5);
+	
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ececed), to(#c2c1c5));     /** Safari 4-5, Chrome 1-9**/
+	
+	background: -webkit-linear-gradient(top, #ececed, #c2c1c5);    /**Safari5.1 Chrome 10+**/
+	
+	background: -o-linear-gradient(top, #ececed, #c2c1c5);   /**Opera 11.10+**/
+	
+	background: linear-gradient(top, #ececed, #c2c1c5);   
+ 			filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #ececed, endColorstr = #c2c1c5);
+} 
+
+
+.signBottun{
+	height:50px;
+	width:260px;
+	background-color:#999; 
+	float:left;
+}
+
+.signBottun img{
+	margin-left:12px;
+} 
+
+#qrcodeWindowDiv{
+	filter:alpha(opacity=85);  
+     -moz-opacity:0.85;  
+     -khtml-opacity: 0.85;  
+     opacity: 0.85;  
+}
+.spinbg{position: absolute;
+    top: 0;}
+    
+    
+    
+
+
+button.workflowSign{
+	cursor:hand;
+	cursor:pointer;
+	border-radius:5%;
+	background-color:#339933;
+	height:34px;
+	line-height:30px;
+	font-size:15px;
+	color:#fff;
+	border:0;
+}
+div.h40,button.h40{
+	padding-left:32px;
+	padding-right:32px;
+}
+div.h41,button.h41{
+	padding-left:32px;
+	padding-right:20px;
+}
+
+.btn-primary:active{
+	border-bottom-color:#339933 !important;
+}
+.btn-primary:focus{
+	border-bottom-color:#339933 !important;
+}
+
+.padding16{
+	padding-left:16px;
+	padding-right:16px;
+}
+
+.openPFDNavigation{
+	height:100%;
+	width:12px;
+	background-color:#e5e6e6;
+	position:absolute;
+	z-index:10;
+}
+
+.openPFDNavigation{
+	cursor:hand;
+    cursor:pointer;
+}
+
+.openPFDNavigation.openImg img{
+	transform: rotate(0deg);
+}
+
+.openPFDNavigation > div{
+	display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.openPFDNavigation img{
+	transform: rotate(180deg);
+	width:10px;
+	vertical-align: middle;
+}
+
+button.en_US{
+	margin-bottom:2px;
+}
+
+.smollButton{
+	cursor:hand;
+    cursor:pointer;
+    margin-left:24px;
+ 	display:inline;
+ 	font-family:'FontAwesome';
+ 	color:#339933;
+ 	font-style:normal;
+ 	line-height:25px;
+ 	font-size:20px;
+}
+
+div.blueDigitalSign{
+	position:absolute;
+	width:100%;
+	height:34px;
+	line-height:34px;
+	top:64px;
+	left:260px;
+	z-index:1890;
+	background-color:rgba(9,150,110,0.25);
+	display:none;
+}
+
+div.blueDigitalSign .block{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+div.blueDigitalSign .flag{
+	margin-right:10px;
+	margin-left:20px;
+}
+.layui-layer-btn0{
+	background-color:#339933;
+	color:#339933;
+}
+
+.button{
+	background-color: #ffffff;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	border: 1px solid #0d357c;
+	color: #0d357c;
+	border-radius: 4px;
+}
+
+
+.buttondiv{
+	text-align: center;
+	margin-top:20px;
+}
+.buttondiv #download{
+	margin-right: 30px;
+}
+button.btn,button.btn:active, button.btn:focus{
+	background-color:#339933 !important;
+	border-color:#339933 !important;
+}
+button.btn:hover{
+	background-color:#6c0 !important;
+	border-color:#6c0 !important;
+	box-shadow:none;
+}
+button.btn[disabled]:active, button.btn[disabled]:focus, button.btn[disabled]:hover{
+	background-color:#339933 !important;
+	border-color:#339933 !important;
+}
+button.btn[disabled]:hover{
+	background-color:#6c0 !important;
+	border-color:#6c0 !important;
+	box-shadow:none;
+}
+.icon-Color{
+	font-size: 24px !important;
+	color: #393;
+	padding-left: 10px;
+	position: absolute;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.hint{
+	margin-top:20px;
+	margin-left:2px;
+}
+
+.tips{
+	background: #66cc00;
+	padding:15px 20px;
+}
+.tips p:first-child{
+	font-weight: bold;
+	font-size: 14px;
+}
+.tips p{
+	color: white;
+	width:638px;
+	text-indent:-12px;
+	margin-left:12px;
+}
+
+.tips p a{
+	border-bottom:2px solid #fff;
+}
+.tips p a:link{
+	text-decoration:none;
+}
+.tips p a:visited{
+	text-decoration:none;
+}
+.tips p a:hover{
+	text-decoration:none;
+}
+.tips p a:active{
+	text-decoration:none;
+}
+.hint{
+	display: none;
+}
+.san{
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #6c0;
+	margin-top: -16px;
+}
+.signatureMenuBodyLi.noStamp img{
+	visibility: hidden;
+}
+.signatureMenuBodyLi.noStamp p{
+	width:145px;
+	line-height: 26px;
+}
+
+.signatureMenuBodyLi.noStamp a{
+	color:#339933;
+	font-weight: bold;
+	text-decoration:underline;
+}
+
+p.largeFont{
+	font-size:22px;
+	padding-bottom:10px;
+	color:#339933;
+}
+
+p.shallFont{
+	font-size:14px;
+	line-height:16px;
+}
+.keyAapply a{
+	text-decoration: underline;
+	color: #339933;
+	padding-left: 4px;
+}
+
+.apply{
+	margin-top:18px;
+	font-size:18px;
+}
+
+.noStampSign{
+	margin-top:48px;
+}
+
+.noStampSign button#cancel{
+	float:right;
+}
+
+.noStampSign button{
+	padding-left:30px;
+	padding-right:30px;
+	font-size:14px;
+}
+
+button.secondary{
+	color: #339933;
+	background-color: #fff !important;
+}
+
+button.secondary:hover{
+	color: #339933;
+	background-color: #fff !important;
+	border-color:#6c0 !important;
+	box-shadow:none;
+}

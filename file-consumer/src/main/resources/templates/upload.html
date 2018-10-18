@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <form method="post" action="/upload" enctype="multipart/form-data">
+        <input type="text" name="signId"/>
+        <input type="file" name="file" />
+        <input type="submit" value="上传文件" />
+    </form>
+</body>
+</html>
+
+<!--
+var oldSubmit;
+var form = document.forms[0];
+if(form != null && form != 'undefined'){
+        //备份submit函数
+    form.oldSubmit = form.submit;
+        //覆盖submit函数以实现拦截
+    form.submit = function (){
+            //提交前做的操作..
+                //掉原函数来提交
+        form.oldSubmit();
+    }
+}
+-->

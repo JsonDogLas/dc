@@ -1,0 +1,676 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<!-- Mirrored from envato.rathemes.com/infinity/default/dashboard.3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Jul 2017 06:13:54 GMT -->
+<head>
+    <meta charset="UTF-8">
+	<script  src="/libs/ace/assets/js/jquery-1.11.3.min.js"></script>
+
+	<!-- 首页加载字体文件 -->
+	<script type="text/javascript" src="/libs/webfontloader/js/webfontloader.js"></script>
+	<script type="text/javascript" src="/pt/modules/yq/api/signfile/createstamp/js/loadFont.js"> </script>
+
+	<script id="navigationModel" type="html" >
+	/* <![CDATA[ */
+			{{#
+				var ieclass=''; var divIE7=''; var ie=IEVersion;var noStamp=false;
+
+				var userSigns=[];
+				var reportSigns=[];
+				var aptitudeSigns=[];
+				var rideSigns=[];
+				var warteSigns=[];
+				var qrcodeSigns=[];
+				var signs=[];
+
+				signs[0]=reportSigns;
+				signs[1]=rideSigns;
+				signs[2]=userSigns;
+				signs[3]=warteSigns;
+				signs[4]=aptitudeSigns;
+				signs[5]=qrcodeSigns;
+
+				for(var item in d){
+					var sign=d[item];
+					if(sign.stampType == null && sign.stampType == ''){continue;}
+					if(sign.stampType == '0'){
+						if(!$.isHandWriteStamp(sign.id)){userSigns.push(sign);}
+					}else if(sign.stampType == '1'){
+						reportSigns.push(sign);
+					}else if(sign.stampType == '2'){
+						aptitudeSigns.push(sign);
+					}else if(sign.stampType == '3'){
+						warteSigns.push(sign);
+					}else if(sign.stampType == '4'){
+						rideSigns.push(sign);
+					}else if(sign.stampType == '5'){
+						qrcodeSigns.push(sign);
+					}
+				}
+			}}
+
+			{{#
+			   if(reportSigns.length == 0 && userSigns.length == 0 && rideSigns.length == 0){
+			        var data={};
+					data.stampType=1;
+			   		reportSigns.push(data);
+			   		noStamp=true;
+			   }
+			}}
+
+
+
+			{{# for(var signsItem=0;signsItem<signs.length;signsItem++){ }}
+			{{# var sign=signs[signsItem]; var img='/pt/modules/yq/api/signfile/base/img/140.png'; var tdImgClassimg='';}}
+			{{# if(sign.length > 0 && signsItem != 'remove'){ }}
+			<ul class="signatureMenuBodyIE7">
+               {{# var liclass='signatureMenuBodyLiOne';
+					if(ie != null && ie != '' && ie <8.0){
+						liclass='signatureMenuBodyLiOneIE7';
+					}
+				}}
+				<li class="{{ liclass }}">
+				<table>
+						<tr>
+							<td class="signatureMenuImage">
+								<img draggable="false" draggable="false" src="/pt/modules/yq/api/signfile/base/img/open.png">
+							</td>
+							<td class="signatureMenuFont">
+								{{# var nameSign=null;
+								    if(signsItem == 0){
+										nameSign=intl.WORKFLOW_CUSTOMSIGN_COMPLAYSIGN;
+									}else if(signsItem == 1){
+										nameSign=intl.USERMANAGE_GSTAMP_SIGN_QIFENG;
+									}else if(signsItem == 3){
+										nameSign=intl.WORKFLOW_GSTAMP_SIGN_WATER;
+									}else if(signsItem == 4){
+										nameSign=intl.WORIFLOW_STAMP_TYPE_DATE;
+									}else if(signsItem == 2){
+									 	nameSign=intl.WORKFLOW_CUSTOMSIGN_ONEPERSONSIGN;
+									}else if(signsItem == 5){
+									 	nameSign=intl.WORKFLOW_QR_CODE;
+									}
+								}}
+								{{ nameSign }}
+							</td>
+						</tr>
+					</table>
+				</li>
+
+
+				{{#	var tdClass=''; var tdImgClass=''; var td2Class=''; var td2DivClass=''; var td2DivSpanClass='';}}
+				{{#	var td2DivDivClass=''; var td3DivClass=''; var temp='';var signatureMenuBodyLi='';}}
+				{{# for(var item in sign){ }}
+					{{# signatureMenuBodyLi='signatureMenuBodyLi';
+
+						if(item==(sign.length-1)){
+							if(ie != null && ie != '' && ie <8.0){
+								divIE7='divIE7';
+								ieclass='IE7';
+								signatureMenuBodyLi='signatureMenuBodyLiIE7';
+    						}
+							tdImgClassimg='signatureMenuImageForTop60'+ieclass;
+							tdClass='signatureMenuImageOne';
+							tdImgClass='signatureMenuImageForTop';
+							td2Class='signatureMenuImageTwo';
+							td2DivClass='';
+							td2DivSpanClass='signatureMenuFontButoomOne';
+							td2DivDivClass='signatureMenuImageButoomOne';
+							td3DivClass='signatureMenuTableTopThree'+ieclass;
+							img='/pt/modules/yq/api/signfile/base/img/75.png';
+							temp='1';
+
+
+						}else{
+							tdImgClassimg='signatureMenuImageForTop60One';
+							if(ie != null && ie != '' && ie <8.0){
+								td2DivClass='signatureMenuImageTwoDivTopIE7';
+								tdImgClassimg='signatureMenuImageForTop60OneIE7';
+								signatureMenuBodyLi='signatureMenuBodyLiIE72';
+    						}
+
+							tdClass='signatureMenuImageOne';
+							tdImgClass='signatureMenuImageTwoTop';
+							td2Class='signatureMenuImageTwo';
+
+							td2DivSpanClass='signatureMenuFontButoomOne';
+							td2DivDivClass='signatureMenuImageButoomOne';
+							td3DivClass='signatureMenuTableTop';
+							img='/pt/modules/yq/api/signfile/base/img/120.png';
+							temp='3';
+						}
+
+						if(noStamp && signsItem == 0){
+							signatureMenuBodyLi=signatureMenuBodyLi+" noStamp";
+						}
+					}}
+
+					{{# var value=sign[item]; console.log("sign="+item);}}
+					{{# if( typeof(sign[item]) != "object" ){ continue;} }}
+					<li class="{{ signatureMenuBodyLi }}">
+						<table class="signatureMenuTable">
+							<tr class="signatureMenuTable">
+								<td class="{{ tdClass }}">
+									<img  draggable="false" class="{{ tdImgClassimg }}" src="{{ img }}">
+									<img  draggable="false" class="{{ tdImgClass }}" src="/pt/modules/yq/api/signfile/base/img/1-3.png">
+								</td>
+
+								<td class="{{ td2Class }}" dombindevent=''>
+									{{# if(noStamp && signsItem == 0){ }}
+										<div>
+											<p>
+												{{ intl.NO_STAMP_CLICK }}
+											   <a target="_blank" href="http://www.cncaq.com/userIndex?sysType=sz&userType=appList">{{ intl.NO_STAMP_APPAY }}</a>
+											</p>
+										</div>
+									{{# }else{ }}
+										<div class="{{ td2DivClass }}">
+											<span class="{{ td2DivSpanClass }}" title="{{ value.stampName }}">
+												{{# if(value.stampNameStr != null && value.stampNameStr != ''){ }}
+													{{ value.stampNameStr }}
+												{{# }else{ }}
+													{{ value.stampName }}
+												{{# } }}
+											</span>
+											<div class="{{ td2DivDivClass }}" img_data_div=''>
+												{{# var img_data=JSON.stringify(value);
+
+													 var imgWidth=Number(value.imgWidth);
+													 var imgHeight=Number(value.imgHeight);
+
+													 var rate,marginTop;
+													 if(imgWidth > imgHeight){
+														marginTop=parseInt((75-75/imgWidth*imgHeight)/2-5) +"px";
+														console.log(marginTop);
+														imgWidth=75+"px";
+														imgHeight="";
+													 }else{
+														marginTop=null;
+														imgHeight=75+"px";
+														imgWidth="";
+													 }
+												}}
+												<img draggable="false" id="{{ value.id }}" height="{{ imgHeight }}" width="{{ imgWidth }}" src="{{ value.filePath }}?test={{ value.id }}" style="margin-top:{{ marginTop }};border:1px solid #339933;" img_data='{{ img_data }}'>
+											</div>
+										</div>
+									{{# } }}
+								</td>
+
+
+								<td>
+									{{# var display='';
+										if(!value.isSignType){
+											display='none';
+									} }}
+									{{# var deleteSign=intl.deleteSign(value.stampName); }}
+
+									<div id="select{{ value.id }}" class="{{ td3DivClass }}" style="display:{{ display }};float:left;">
+										<img draggable="false" name="selectImg" width="20px" height="20px" title="{{ deleteSign }}" src="/pt/modules/yq/api/signfile/base/img/999.png"/>
+									</div>
+
+									{{#
+										if(value.isHandWriteSign){
+											display='';
+										}else{
+											display='none';
+										}
+									}}
+									{{# var testTitle=intl.noPage(value.stampName); }}
+
+									<div id="delete{{ value.id }}" name="handWriteSign" class="{{ td3DivClass }}" style="display:{{ display }};float:left;">
+										<img draggable="false" name="deleteImg" width="20px" height="20px" title="{{ testTitle }}" src="/pt/modules/yq/api/signfile/base/img/delete.png"/>
+									</div>
+									{{#
+										if(value.isHandBagWriteSign){
+											display='';
+										}else{
+											display='none';
+										}
+									}}
+									<div id="delete{{ value.id }}" name="handBagWriteSign" class="{{ td3DivClass }}" style="display:{{ display }};float:left;">
+										<img draggable="false" name="deleteImg" width="20px" height="20px" title="{{ testTitle  }}" src="/pt/modules/yq/api/signfile/base/img/delete.png"/>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</li>
+			   	{{# } }}
+
+            </ul>
+			{{# } }}
+
+			{{# } }}
+
+		/* ]]> */
+	</script>
+	<script id="PFDNavigationModel" type="html">
+	/* <![CDATA[ */
+			<div class="PFDbody" style="display: block">
+				{{# var pdf=d; var select=''; var style='';}}
+
+				{{# for(var item in pdf){ }}
+					{{# var value=pdf[item];}}
+					{{# if( typeof(pdf[item]) != "object" ){ continue;} }}
+					{{# if(parseInt(value.page)==0){select='selectBorder';  style='navigationFTPimgTop'; }}}
+					<div class="navigationFTPimg {{ style }}">
+                       		<img draggable="false" class="imgBorder {{select}}" draggable="false" src="{{ value.imagePath }}" width="173px"></img>
+                       		<div class="divBorder {{select}}">{{# var page=parseInt(value.page)+1; }}{{page}}</div>
+                   	</div>
+					{{# select=''; style='';}}
+				{{# } }}
+            </div>
+            /* ]]> */
+		</script>
+	<script id="clickSignModel" type="html">
+	/* <![CDATA[ */
+			{{# var style="40",width="";}}
+			{{# if(intl.language=="en-US"){ }}
+				{{# style="78"; width="223";}}
+			{{# } }}
+			<div  style="height:{{ style }}px;width:100%;" height="{{ style }}">
+				{{# if(d.hasPublicCerSign == null){ }}
+					{{# if(d.hasSm2Signed || d.hasRSASigned){ }}
+						{{# if(intl.ordinarySignStartFlag){ }}
+							<button class="btn ink-reaction btn-raised btn-primary h40 {{ intl.languageUnderline }}" id="ordinarySign" value='0' disabled style="width:{{ width }}px">{{ intl.WORKFLOW_CUSTOMSIGN_ORDINARYSIGN }}</button>
+						{{#  } }}
+					{{# }else{ }}
+						{{# if(intl.ordinarySignStartFlag){ }}
+							<button class="btn ink-reaction btn-raised btn-primary h40 {{ intl.languageUnderline }}" id="ordinarySign" value='0' style="width:{{ width }}px">{{ intl.WORKFLOW_CUSTOMSIGN_ORDINARYSIGN }}</button>
+						{{#  } }}
+					{{# } }}
+				{{# }else{ }}
+					{{# if(d.hasPublicCerSign  && (d.hasSm2Signed || d.hasRSASigned)){ }}
+						{{# if(intl.publicCerSignStartFlag){ }}
+							<button class="btn ink-reaction btn-raised btn-primary padding16 {{ intl.languageUnderline }}" id="publicCerSign" value='2' style="width:{{ width }}px;">{{ intl.WORKFLOW_CUSTOMSIGN_PUBLIC_CER_SIGN }}</button>
+						{{#  } }}
+					{{# }else if(!d.hasPublicCerSign  && (d.hasSm2Signed || d.hasRSASigned)){ }}
+						{{# if(intl.publicCerSignStartFlag){ }}
+							<button class="btn ink-reaction btn-raised btn-primary padding16 {{ intl.languageUnderline }}" id="publicCerSign" value='2' disabled style="width:{{ width }}px;">{{ intl.WORKFLOW_CUSTOMSIGN_PUBLIC_CER_SIGN }}</button>
+						{{#  } }}
+					{{# }else{ }}
+						{{# if(intl.ordinarySignStartFlag){ }}
+							<button class="btn ink-reaction btn-raised btn-primary h40 {{ intl.languageUnderline }}" id="ordinarySign" value='0' style="width:{{ width }}px">{{ intl.WORKFLOW_CUSTOMSIGN_ORDINARYSIGN }}</button>
+						{{#  } }}
+					{{# } }}
+				{{# } }}
+				{{# if(intl.numberSignStartFlag){ }}
+					<button class="btn ink-reaction btn-raised btn-primary h41 {{ intl.languageUnderline }}" id="numberSign" value='1' style1="width:{{ width }}px" style="width:100%;letter-spacing:16px;">
+						{{ intl.WORKFLOW_CUSTOMSIGN_ONEPERSONSIGN }}
+					</button>
+				{{#  } }}
+		    </div>
+/* ]]> */
+	</script>
+	<script id="handWriteSignModel" type="html">
+			<button id="createStamp" class="btn ink-reaction btn-raised btn-primary secondary" style="height:34px;margin-top:3px;width:200px;" height="50">
+				  {{ intl.WORKFLOW_CREATE_STAMP_INFO }}
+		    </button>
+	</script>
+
+	<script id="uploadStampModel" type="html">
+			<button id="uploadStampButton" class="btn ink-reaction btn-raised btn-primary" style="height:34px;margin-top:3px;" height="50">
+				  {{ intl.UPLOAD_STAMP }}
+		    </button>
+	</script>
+
+	<script id="handBagWriteSignModel" type="html">
+	/* <![CDATA[ */
+			<button class="signBottun" style="height:50px;width:100%;" height="50">
+				 <div style="float:left;margin-left:50px;">
+			     	<img draggable="false" height="25px" width="27px" src="/pt/modules/yq/api/signfile/base/img/handBagWriteSign.png"/>
+				 </div>
+				 <div style="float:left;">
+					<span id="signValue" class="signValue" style="color:#0aa89e;">
+			         	{{ intl.WORKFLOW_CUSTOMSIGN_HANDBALKSIGN }}
+			     	</span>
+				 </div>
+		    </button>
+		    /* ]]> */
+		</script>
+	<script id="PFDNavigationNameModel" type="html">
+	/* <![CDATA[ */
+			{{# var jsonData=JSON.stringify(d); }}
+			{{#
+						var IE7=''; var ie=IEVersion;
+						if(ie != null && ie != '' && ie <8.0){
+							IE7='8';
+    					}else{
+							IE7=0;
+						}
+			}}
+			<div id="PDFfileInfo" data='{{jsonData}}' title="{{ d.pdfName }}" style='margin-top:{{ IE7 }}px;'>
+				<div>
+					{{# if(d.pdfNameStr != null && d.pdfNameStr != ''){ }}
+						{{ d.pdfNameStr }}
+					{{# }else{ }}
+						{{ d.pdfName }}
+					{{# } }}
+				</div>
+				<div>
+					<input type='text' id='pdfPage' style='width:30px;padding:1px;' value='0'>
+					<span>/</span>
+					<span>{{ d.totalPageCount }}</span>
+				</div>
+			</div>
+			 /* ]]> */
+		</script>
+	<script id="signatureHeadModel" type="html">
+	/* <![CDATA[ */
+		<div  id="signatureHeadTest" style="height:60px;width:100%; padding-left:24px;padding-right:24px;">
+			<div style="height:100%;font-size:15px;color:#000;display:inline-block;">
+				<div style="height:100%;width:auto;display:table;">
+					<div style="display:table-cell;vertical-align:middle;">
+						<span id="titleName" style="display:inline-block;float:left;line-height: 25px;" >{{ intl.WORKFLOW_SENDEMAIL_TABLE_TITLE }}：</span>
+						<span id="titleContent" style="word-wrap:break-word;word-break:break-all;display:block;float:left;line-height: 25px;">
+							{{ d.title }} <i class="icon iconfont icon-sigh icon-Color"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="buttonContent" style="height:100%;display:inline-block;float:right;">
+				<div style="height:100%;width:auto;display:table;">
+					<div style="display:table-cell;vertical-align:middle;">
+						<button class="btn ink-reaction btn-raised btn-primary" id="signFileSave" style="display:none;">{{ intl.SIGN_FILE_SAVE }}</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		/* ]]> */
+	</script>
+	<script id="qrcodeWindowModel" type="html">
+	/* <![CDATA[ */
+			<div id="qrcodeWindowDiv" style="position:absolute;z-index:1000;top:{{ d.top }}px;left:{{ d.left }}px;width:{{ d.divwidth }}px;height:100%;background-color:#3e3e3e;">
+				{{#
+						var isIE7=false; var ie=IEVersion;
+						if(ie != null && ie != '' && ie <8.0){
+							isIE7=true;
+    					}
+				}}
+				<div id="qrcodeWindowClose" class="qrcodeWindowClose{{ isIE7 ? 'IE7' : ''}}" title="{{ d.content }}">
+					{{# if(isIE7){  }}
+						<img src="/pt/modules/yq/api/signfile/base/img/qrcodeWindowClose.png" width="32" height="32" />
+					{{#  }  }}
+				</div>
+				<div style="width:280px;height:280px;margin-left:auto;margin-right:auto;margin-top:{{ d.marginTop }}px;background-color:#ffffff;">
+					<img src="{{ d.src }}" style="width:100%;height:100%;">
+				</div>
+			</div>
+			/* ]]> */
+		</script>
+	<script id="handBagWindowModel" type="html">
+	/* <![CDATA[ */
+			<div id="handBagWindowDiv" style="position:absolute;z-index:1000;top:{{ d.top }}px;left:{{ d.left }}px;width:{{ d.divwidth }}px;height:100%;background-color:#3e3e3e;">
+				{{#
+						var isIE7=false; var ie=IEVersion;
+						if(ie != null && ie != '' && ie <8.0){
+							isIE7=true;
+    					}
+				}}
+				<div id="handBagWindowClose" class="handBagWindowClose{{ isIE7 ? 'IE7' : ''}}" title="{{ d.content }}">
+					{{# if(isIE7){  }}
+						<img src="/pt/modules/yq/api/signfile/base/img/qrcodeWindowClose.png" width="32" height="32" />
+					{{#  }  }}
+				</div>
+				<div style="width:100%;height:100%;margin-left:auto;margin-right:auto;background-color:#eee;">
+					<iframe src='../signvisual/handBagwrite/handBagWriteSign.jsp?sealName={{ d.sealName }}&companyName={{ d.companyName }}&stampTime={{ d.stampTime }}&userName={{ d.userName }}'
+						width='100%' height='100%' id='handbagframe' name='handbagframe'
+						frameborder='no' border='0' marginwidth='0' marginheight='0' scrolling='no'
+						 allowtransparency='yes'>
+					</iframe>
+				</div>
+			</div>
+			/* ]]> */
+		</script>
+	<script type="html" id="imagePageModel">
+		/* <![CDATA[ */
+        {{# var jsonData=JSON.stringify(d),thisPage;}}
+			{{# if(parseInt(d.page)==1){ thisPage='thisPage';}}}
+        <li id="{{ d.id }}" image-data='{{ jsonData }}' class="imageItemLi {{ thisPage }}" style="margin-top:{{ d.top }}px;">
+            <div  class="imageItemDiv" style="width:{{ d.width/d.zoomRate*(d.thisZoomRate == null ? 1: d.thisZoomRate)  }}px;height:{{ d.height/d.zoomRate*(d.thisZoomRate == null ? 1: d.thisZoomRate) }}px;">
+                <div id="image_page_{{ d.id }}" style="width:100%;height:100%;background-image: url('{{ d.imagePath }}');" class="image">
+                </div>
+            </div>
+        </li>
+		/* ]]> */
+    </script>
+    <script type="html" id="imagePageRightModel">
+		/* <![CDATA[ */
+        {{# var jsonData=JSON.stringify(d),select,style,thisPage;}}
+			{{# if(parseInt(d.page)==1){ select='selectBorder';  thisPage='thisPage'; style='navigationFTPimgTop'; }}}
+        <li id="{{ d.id }}" image-data='{{ jsonData }}' class="imageItemLi {{ thisPage }}" style="margin-top:{{ d.top }}px;">
+			<div class="imageItemDiv navigationFTPimg {{ style }}">
+                <img draggable="false" class="image imgBorder /**{{select}}**/" draggable="false" src="{{ d.imagePath }}" width="173px" class="image"></img>
+                <div class="divBorder /**{{select}}**/">{{# var page=parseInt(d.page); }}{{page}}</div>
+            </div>
+        </li>
+		/* ]]> */
+    </script>
+	<script type="html" id="tipModel">
+		<div class="buttondiv">
+			<a id="downloada" style="display: none;"><span>11</span></a>
+		</div>
+	</script>
+	<script type="html" id="goToConfigModel">
+		/* <![CDATA[ */
+		<div class="buttondiv">
+			<div style="margin-top:80px;margin-bottom:80px;">
+				<span>
+					{{ intl.KEY_NO_BIND_CONFIG }}
+				</span>
+			</div>
+			<button id="goToConfig" class="button">
+				{{ intl.GO_TO_CONFIG }}
+			</button>
+		</div>
+		/* ]]> */
+	</script>
+
+	<script type="html" id="hint">
+		<div class="hint">
+			<div class="san"></div>
+			<div class="tips">
+				<p style="font-size:20px;">温馨提示:</p>
+				<p>1.目前暂不支持非平台(检验检测认证行业电子文件服务平台<a target="_blank" href="http://www.cncaq.com">www.cncaq.com</a>)CA-Key进行签章操作</p>
+				<p>2.如需了解如何申请平台CA-Key和电子印章，详情请见---<a target="_blank" href="http://www.cncaq.com/ccc/instruction.html">CA-Key与电子印章办理指南</a></p>
+			</div>
+		</div>
+	</script>
+
+	<script type="html" id="key_no_distinguish">
+        <div class="div">
+			<div class="new_fees">
+				<div class="keyAapply">
+					<p class="largeFont">您的CA-Key无法识别!</p>
+					<p class="shallFont">请插入对应的CA-Key或</p>
+					<p class="shallFont">前往 <a target="_blank" href="http://www.cncaq.com">检验检测认证行业电子文件服务平台</a></p>
+					<p class="shallFont">申请可靠的数字证书（CA-Key）</p>
+					<button id="applyKey" class="btn ink-reaction btn-raised btn-primary h41 zh_CN apply">
+						前往申请数字证书（CA-Key）
+					</button>
+				</div>
+			</div>
+        </div>
+	</script>
+
+	<script type="html" id="key_no_distinguish_sign">
+	    <div class="div">
+			<div class="new_fees">
+				<div >
+					<p class="largeFont">您没有加盖电子印章</p>
+					<p class="shallFont">是否直接进行签名（加密）？</p>
+					<div class="apply noStampSign">
+						<button id="confirm" class="btn ink-reaction btn-raised btn-primary secondary">
+							确认
+						</button>
+						<button id="cancel" class="btn ink-reaction btn-raised btn-primary ">
+							取消
+						</button>
+					</div>
+				</div>
+			</div>
+        </div>
+
+	</script>
+</head>
+<body>
+	<div class="k-content widthHeight">
+		<a id="clickHref" target="_blank" style="display:none;"><span>11</span></a>
+		<!--头部-->
+        <div id="signatureHead" class="signatureHead">
+        </div>
+        <!--body-->
+        <div class="signatureBody">
+            <!--导航栏-->
+            <div class="signatureBodyDiv">
+            	<!-- 手写签名-->
+            	<div id="handWriteSign" style="text-align:center;">
+            		
+            	</div>
+            	<!-- 上传印章-->
+            	<div id="uploadStamp" style="text-align:center;">
+
+            	</div>
+            	<!-- 手写板签名-->
+            	<div id="handBagWriteSign">
+            		
+            	</div>
+            	
+            	<div id="navigation" class="navigation">
+            		<div id='loadSignHint' class="loadHintFont">
+	            		<table style="width:100%;height:100%;">
+					        <tr>
+					            <td align="center" id="WORKFLOW_END_WORKFLOW_SIGN_LOAD"></td>
+					        </tr>
+					    </table>
+            		</div>
+           		</div>
+            	<!-- 签约按钮 -->
+	            <div id="clickSign" >
+	            	
+	            </div>
+            </div>
+            
+            <!--PFD展示区域-->
+            <div  class="PFDShow">
+            	<!-- 文件提示 -->
+            	<div id="blueDigitalSign" class="blueDigitalSign">
+            		<div class="block">
+            			<img class="flag" src="/pt/modules/yq/api/signfile/base/img/blueSign.png"></img>
+            			<span class="content">当前文档已经。。。。</span>
+            		</div>
+            	</div>
+                <!--遮蔽签章浮层 顶部遮蔽-->
+                <div  id="pfdShowImgTest" class="PFDShowTest ftpImgBorder">
+                     <!-- <div  id="pfdShowImgPng" class="PDFshowImageBackground" src="" width="595px" height="842" pdfPage="" style="display:none;"></div> -->
+                     <div id='loadPdfHint' class="loadHintFont">
+                     	<table style="width:100%;height:100%;">
+					        <tr>
+					            <td align="center" id="WORKFLOW_END_WORKFLOW_PDF_LOAD"></td>
+					        </tr>
+					    </table>
+                      </div>
+                </div>
+            </div>
+
+            
+            <div id="PFDNavigation" class="PFDNavigation" style="position: absolute;z-index:1900">
+            	<div class="openPFDNavigation" style="border-left:#ccc 1px solid;border-right:#ccc 1px solid;display:none;">
+            		<div>
+       					<img src="/pt/modules/yq/api/signfile/sign/img/openPdf.png" width="6"/>
+            		</div>
+            	</div>
+            	<!--PFD导航区域
+                <div  class="PFDNavigationFile">合同文件 </div>-->
+                <div  id="PFDNavigationName" class="PFDNavigationName"></div>
+                <div id='loadPDFImageHint' class="loadHintFont">
+               		 <table style="width:100%;height:100%;display:none;">
+				        <tr>
+				            <td align="center" id="WORKFLOW_END_WORKFLOW_PDF_IMAGE_LOAD"></td>
+				        </tr>
+					 </table>
+                </div>
+                <div id="PFDNavigationRight" style="width:100%;height:100%;overflow-y:scroll;">
+                
+                </div>
+            </div>
+        </div>
+	</div>
+
+
+</body>
+<!--客户端签名start-->
+<script type="text/javascript" src="/libs/ids/common/js/base64.js"></script>
+<script type="text/javascript" src="/libs/ids/common/js/md5.js"></script>
+
+<script type="text/javascript" src="/libs/ids/lm/base/base.js"></script>
+<script type="text/javascript" src="/libs/ids/lm/base/mToken.js"></script>
+<script type="text/javascript" src="/libs/ids/lm/base/clmCer.js"></script>
+<script type="text/javascript" src="/libs/ids/lm/base/clmkey.js"></script>
+<script type="text/javascript" src="/libs/ids/lm/lang/lmMessage_zh_cn.js"></script>
+<script type="text/javascript" src="/libs/ids/lm/base/lmParamConstants.js"></script>
+<script type="text/javascript" src="/libs/ids/lm/base/lmInit.js"></script>
+<script type="text/javascript" src="/libs/ids/lm/socketsign/lmRequestFunctions.js"></script>
+<script type="text/javascript" src="/libs/ids/lm/socketsign/lmSocketSign.js"></script>
+<script type="text/javascript" src="/libs/ids/lm/socketsign/lmDoSign.js"></script>
+
+<input type="hidden" id="clientVersion" name="clientVersion" value="1.1">
+<input type="hidden" id="clientHashType" name="clientHashType" value="3">
+<input type="hidden" id="clientResponseP1RSASignedType" name="clientResponseP1RSASignedType" value="4">
+<input type="hidden" id="clientResponseP1SM2SignedType" name="clientResponseP1SM2SignedType" value="7">
+<input type="hidden" id="clientHashMethod" name="clientHashMethod" value="requestHash">
+<input type="hidden" id="clientSignFileId" name="clientSignFileId">
+<!--客户端签名end-->
+
+
+<link type="text/css" rel="stylesheet" href="/libs/ids/common/iconfont/iconfont.css" />
+<link type="text/css" rel="stylesheet" href="/libs/ace/assets/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/pt/modules/yq/api/signfile/base/resources/css/theme-default/materialadmin.css" />
+<link type="text/css" rel="stylesheet" href="/pt/modules/yq/api/signfile/base/resources/css/theme-default/font-awesome.min.css" />
+<link type="text/css" rel="stylesheet" href="/pt/modules/yq/api/signfile/base/resources/css/theme-default/material-design-iconic-font.min.css" />
+<link type="text/css" rel="stylesheet" href="/pt/modules/yq/api/signfile/base/resources/css/default.css" />
+<link type="text/css" rel="stylesheet" href="/pt/modules/yq/api/signfile/base/resources/css/magic-check.css" />
+<%--<link type="text/css" rel="stylesheet" href="/libs/jquery/confirm/css/jquery-confirm.css" />--%>
+
+<!--弹出层需要-->
+<link type="text/css" rel="stylesheet" href="/pt/modules/yq/api/signfile/base/css/credentials.css" />
+
+<script type="text/javascript" src="/libs/ids/common/iconfont/iconfont.js"></script>
+<script type="text/javascript" src="/libs/layer/js/layer.js"></script>
+<script type="text/javascript" src="/libs/ids/layer/js/idsLayer.js"></script>
+<link rel="stylesheet" href="/libs/layer/css/layer.css">
+<link rel="stylesheet" href="/libs/ids/layer/css/idsLayer.css">
+<script type="text/javascript" src="/libs/layer/js/laytpl.js"></script>
+<script type="text/javascript" src="/libs/jquery/js/json2.js"></script>
+<script type="text/javascript" src="/libs/ids/drag.js"></script>
+
+
+
+<script type="text/javascript" src="/pt/modules/yq/api/signfile/base/js/signDrag.js?test=2"></script>
+<script type="text/javascript" src="/pt/modules/yq/api/signfile/base/js/signTemplate.js?test=22"></script>
+<script type="text/javascript" src="/pt/modules/yq/api/signfile/base/js/signIntl.js?test=22"></script>
+<script type="text/javascript" src="/pt/modules/yq/api/signfile/base/js/loadImage.js"></script>
+<script type="text/javascript" src="/pt/modules/yq/api/signfile/base/js/customSign.js"></script>
+<script type="text/javascript" src="/pt/modules/yq/api/signfile/base/js/serviceSign.js"></script>
+<link type="text/css" rel="stylesheet" href="/pt/modules/yq/api/signfile/base/css/signVisual.css" />
+<link type="text/css" rel="stylesheet" href="/pt/modules/yq/api/signfile/base/css/loadImage.css" />
+
+<script id="result" type="application/json" th:text="${iResult}"></script>
+
+<script>
+    intl.addSignSrc="/pt/modules/yq/api/signfile/sign/img/addSign.png";
+    intl.reduceSignSrc="/pt/modules/yq/api/signfile/sign/img/reduceSign.png";
+    intl.deleteSignSrc="/pt/modules/yq/api/signfile/sign/img/deleteSign.png";
+
+    intl.loadImagePath="/pt/modules/yq/api/signfile/base/img/loadImage.gif";
+	intl.tipImgSrc="/pt/modules/yq/api/signfile/base/img/fail.png";
+    intl.timImgSrc="/pt/modules/yq/api/signfile/base/img/timg.gif";
+
+    intl.closeImgSrc="/pt/modules/yq/api/signfile/base/img/tipClose.png";
+    intl.imgSrc="/pt/modules/yq/api/signfile/base/img/test.png";
+
+    intl.closeImgSrc="/pt/modules/yq/api/signfile/base/img/tipClose.png";
+    intl.blueImgSrc="/pt/modules/yq/api/signfile/base/img/blueSign.png";
+    intl.errorImgSrc="/pt/modules/yq/api/signfile/base/img/blueError.png";
+	intl.CERT_APPLY_STAMP=false;//印章申请的权限
+    intl.CLI_URL="";
+</script>
+</html>
